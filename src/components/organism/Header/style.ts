@@ -7,5 +7,5 @@ export const CardHeader = styled.div`
   align-items: center;
   background: ${COLORS.black_light};
   color: ${COLORS.white_default};
-  padding: 5px 0;
+  padding: 10px 0;
 `;

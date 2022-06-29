@@ -5,7 +5,9 @@ import { CardHeader } from "./style";
 const Header = () => {
   return (
     <CardHeader>
-      <Logo />
+      <a href="#">
+        <Logo />
+      </a>
       <NavigationDesktop />
     </CardHeader>
   );
