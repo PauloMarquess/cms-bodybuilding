@@ -1,12 +1,13 @@
 import Logo from "../../atoms/Logo";
+import NavigationDesktop from "../../molecules/NavigationDesktop";
+import { CardHeader } from "./style";
 
 const Header = () => {
   return (
-    <div>
-      <div>
-        <Logo />
-      </div>
-    </div>
+    <CardHeader>
+      <Logo />
+      <NavigationDesktop />
+    </CardHeader>
   );
 };
 

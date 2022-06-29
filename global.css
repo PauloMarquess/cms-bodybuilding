@@ -7,7 +7,7 @@
   list-style: none;
   font-family: sans-serif;
   scroll-behavior: smooth;
-  transition: all 0.5 ease-in-out;
+  transition: all 0.3s ease-in-out;
   font-family: "Montserrat", sans-serif;
 }
 body {
@@ -21,6 +21,7 @@ textarea {
   font-family: "Montserrat", sans-serif;
 }
 
-button {
+button,
+a {
   cursor: pointer;
 }
