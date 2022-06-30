@@ -17,3 +17,15 @@ export const CardHeader = styled.header`
     color: ${COLORS.gray};
   }
 `;
+
+export const CardLogo = styled.a`
+  display: flex;
+  align-items: center;
+  color: ${COLORS.gray};
+  cursor: pointer;
+  @media (max-width: 769px) {
+    h1 {
+      font-size: 20px;
+    }
+  }
+`;

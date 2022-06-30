@@ -10,6 +10,9 @@ export const Navigation = styled.ul`
       color: ${COLORS.secondary};
     }
   }
+  @media (max-width: 769px) {
+    display: none;
+  }
 `;
 
 export const Media = styled.img`
