@@ -1,4 +1,5 @@
 import { images } from "../../../assets";
+import { Button } from "../../atoms/Button";
 import { Container } from "../../atoms/Container/styled";
 import { Images, Information } from "./style";
 
@@ -16,6 +17,7 @@ const Presentation = () => {
           estamos motivados positivamente. Resultados que você e seu corpo
           merecem.
         </h6>
+        <Button children="Comece Hoje" onClick={() => {}} />
       </Information>
     </Container>
   );

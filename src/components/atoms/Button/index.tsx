@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { ContainerButton } from "./style";
 
 interface ButtonProps {
   children: ReactNode;
@@ -9,10 +10,10 @@ interface ButtonProps {
 
 export const Button = ({ children, onClick, type }: ButtonProps) => {
   return (
-    <div>
+    <ContainerButton>
       <button type={type} onClick={onClick}>
         {children}
       </button>
-    </div>
+    </ContainerButton>
   );
 };

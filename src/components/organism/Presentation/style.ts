@@ -9,22 +9,36 @@ export const Information = styled.div`
   gap: 20px;
   position: relative;
   right: 100px;
+  transition: 1s;
+  animation: show 1.5s both;
 
-  h1,
-  h2 {
-    text-transform: uppercase;
+  Button {
+    width: 30%;
   }
+
   h2 {
     font-size: 2.2rem;
+    text-transform: uppercase;
   }
   h1 {
     font-size: 4.8rem;
     width: 70%;
     margin: 0 auto;
+    text-transform: uppercase;
   }
   h6 {
     font-size: 1.2rem;
     font-family: 700;
+  }
+  @keyframes show {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 20%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
   }
 `;
 
