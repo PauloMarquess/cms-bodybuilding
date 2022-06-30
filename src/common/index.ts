@@ -4,7 +4,7 @@ export const COLORS = {
   third: "#ead409",
   white_default: "#fff",
   black: "#000",
-  black_light: "#000000de",
-  black_opacity: "#0000008a",
+  black_medium: "#131314",
+  black_light: "#1c1c1d",
   gray: "#bdbdbd",
 };

@@ -4,10 +4,10 @@ import { Images, Information } from "./style";
 
 const Presentation = () => {
   return (
-    <Container>
+    <Container backgroundColor height="120vh" id="home">
       <Images src={images.presentation} />
       <Information>
-        <h2>+ Saúde + Poder + Felicidade</h2>
+        <h2>Saúde + Poder + Felicidade</h2>
         <h1>Construa seu corpo</h1>
         <h6>
           Nossa equipe qualificada de instrutores ajuda nossos clientes a

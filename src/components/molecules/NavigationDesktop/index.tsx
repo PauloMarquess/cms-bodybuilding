@@ -7,7 +7,7 @@ const NavigationDesktop = () => {
     <Navigation>
       {navigation.map((item) => (
         <li key={item.name}>
-          <a>{item.name}</a>
+          <a href={item.link}>{item.name}</a>
         </li>
       ))}
       <p>|</p>

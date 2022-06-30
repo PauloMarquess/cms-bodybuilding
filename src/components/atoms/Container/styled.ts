@@ -10,6 +10,7 @@ interface ContainerProps {
   hresponsive?: boolean;
   height?: string;
   width?: string;
+  backgroundColor?: boolean;
 }
 export const Container = styled.section<ContainerProps>`
   display: flex;
@@ -18,7 +19,8 @@ export const Container = styled.section<ContainerProps>`
   align-items: ${(props) => (props.align ? props.align : "center")};
   width: ${(props) => (props.width ? props.width : "100%")};
   height: ${(props) => (props.height ? props.height : "100vh")};
-  background-color: ${COLORS.black_light};
+  background-color: ${({ backgroundColor }) =>
+    backgroundColor && `${COLORS.black_light}`};
   color: WHITE;
 
   @media (max-width: 769px) {
