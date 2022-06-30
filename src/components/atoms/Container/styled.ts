@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { COLORS } from "../../../common";
 
 interface ContainerProps {
   column?: boolean;
@@ -10,13 +11,15 @@ interface ContainerProps {
   height?: string;
   width?: string;
 }
-export const Container = styled.div<ContainerProps>`
+export const Container = styled.section<ContainerProps>`
   display: flex;
   flex-direction: ${({ column }) => (column ? "column" : "row")};
   justify-content: ${(props) => (props.justify ? props.justify : "center")};
   align-items: ${(props) => (props.align ? props.align : "center")};
   width: ${(props) => (props.width ? props.width : "100%")};
   height: ${(props) => (props.height ? props.height : "100vh")};
+  background-color: ${COLORS.black_light};
+  color: WHITE;
 
   @media (max-width: 769px) {
     flex-direction: ${({ responsive }) => (responsive ? "column" : "row")};

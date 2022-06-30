@@ -5,7 +5,7 @@ export const Navigation = styled.ul`
   display: flex;
   gap: 30px;
   a {
-    font-weight: 600;
+    font-weight: bold;
     :hover {
       color: ${COLORS.secondary};
     }
@@ -15,7 +15,7 @@ export const Navigation = styled.ul`
 export const Media = styled.img`
   width: 20px;
   height: 20px;
-  filter: grayscale(90%);
+  filter: grayscale(100%);
 
   :hover {
     filter: grayscale(0);
