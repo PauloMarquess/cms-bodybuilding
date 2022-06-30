@@ -1,13 +1,14 @@
 import Logo from "../../atoms/Logo";
 import NavigationDesktop from "../../molecules/NavigationDesktop";
-import { CardHeader } from "./style";
+import { CardHeader, CardLogo } from "./style";
 
 const Header = () => {
   return (
     <CardHeader>
-      <a href="#">
+      <CardLogo>
         <Logo />
-      </a>
+        <h2>Bodybuilding</h2>
+      </CardLogo>
       <NavigationDesktop />
     </CardHeader>
   );

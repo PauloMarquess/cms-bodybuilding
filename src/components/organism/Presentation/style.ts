@@ -1,3 +1,4 @@
+import { COLORS } from "./../../../common/index";
 import styled from "styled-components";
 
 export const Information = styled.div`
@@ -9,6 +10,7 @@ export const Information = styled.div`
   gap: 20px;
   position: relative;
   right: 100px;
+
   h1,
   h2 {
     text-transform: uppercase;
@@ -21,8 +23,9 @@ export const Information = styled.div`
     width: 70%;
     margin: 0 auto;
   }
-  p {
+  h6 {
     font-size: 1.2rem;
+    font-family: 700;
   }
 `;
 
