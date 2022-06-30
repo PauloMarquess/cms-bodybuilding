@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { COLORS } from "../../../common";
 
 export const Information = styled.div`
   display: flex;
@@ -11,10 +12,6 @@ export const Information = styled.div`
   right: 100px;
   transition: 1s;
   animation: show 1.5s both;
-
-  Button {
-    width: 30%;
-  }
 
   h2 {
     font-size: 2.2rem;
@@ -49,3 +46,5 @@ export const Images = styled.img`
   width: 40%;
   border-radius: 28px;
 `;
+
+
