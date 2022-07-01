@@ -5,7 +5,7 @@ import Youtube from "../assets/icons/youtube.svg";
 import Twiter from "../assets/icons/twiter.svg";
 import Presentation from "../assets/images/presentatio.jpeg";
 import Menu from "../assets/icons/menu.svg";
-import Close from "../assets/icons/twiter.svg";
+import Close from "../assets/icons/close.svg";
 
 export const images = {
   logo: Logo,

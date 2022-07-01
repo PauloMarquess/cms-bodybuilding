@@ -7,7 +7,7 @@ export const BtnLink = styled.a`
   padding: 15px 20px;
   font-weight: 600;
   font-size: 20px;
-  width: 30%;
+
   margin: 0 auto;
   border: 2px solid ${COLORS.third};
   :hover {

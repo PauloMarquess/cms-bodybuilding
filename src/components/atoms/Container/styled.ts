@@ -25,7 +25,7 @@ export const Container = styled.section<ContainerProps>`
 
   @media (max-width: 769px) {
     flex-direction: ${({ responsive }) => (responsive ? "column" : "row")};
-
+    padding: 0 30px;
     height: ${({ hresponsive }) => (hresponsive ? "100vh" : "auto")};
   }
 `;

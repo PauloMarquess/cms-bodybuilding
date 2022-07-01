@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { icons } from "../../../assets";
 import { CardMobile } from "./style";
 
 const NavigationMobile = () => {
@@ -9,17 +10,9 @@ const NavigationMobile = () => {
 
   return (
     <CardMobile>
-      {/* <Lottie
-        options={{
-          loop: false,
-          autoplay: false,
-          animationData: Animation,
-          rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice",
-          },
-        }}
-        width="25px"
-      /> */}
+      <a>
+        <img src={icons.menu} />
+      </a>
     </CardMobile>
   );
 };

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { COLORS } from "../../../common";
 
 export const Information = styled.div`
   display: flex;
@@ -12,7 +11,9 @@ export const Information = styled.div`
   right: 100px;
   transition: 1s;
   animation: show 1.5s both;
-
+  a {
+    width: 30%;
+  }
   h2 {
     font-size: 2.2rem;
     text-transform: uppercase;
@@ -37,6 +38,25 @@ export const Information = styled.div`
       transform: translate3d(0, 0, 0);
     }
   }
+  @media (max-width: 769px) {
+    margin-top: 220px;
+    width: 100%;
+    right: 0;
+    height: 500px;
+    a {
+      width: 100%;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+    h6 {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
 `;
 
 export const Images = styled.img`
@@ -45,6 +65,11 @@ export const Images = styled.img`
   top: 100px;
   width: 40%;
   border-radius: 28px;
+  @media (max-width: 769px) {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0.2;
+    border-radius: 0;
+  }
 `;
-
-

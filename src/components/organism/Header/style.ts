@@ -16,6 +16,9 @@ export const CardHeader = styled.header`
   a {
     color: ${COLORS.gray};
   }
+  @media (max-width: 769px) {
+    justify-content: space-between;
+  }
 `;
 
 export const CardLogo = styled.a`
@@ -24,6 +27,7 @@ export const CardLogo = styled.a`
   color: ${COLORS.gray};
   cursor: pointer;
   @media (max-width: 769px) {
+    padding-left: 20px;
     h1 {
       font-size: 20px;
     }
