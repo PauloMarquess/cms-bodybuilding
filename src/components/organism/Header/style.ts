@@ -17,7 +17,7 @@ export const CardHeader = styled.header`
     color: ${COLORS.gray};
   }
   @media (max-width: 769px) {
-    justify-content: space-between;
+    flex-direction: column;
   }
 `;
 
@@ -27,7 +27,9 @@ export const CardLogo = styled.a`
   color: ${COLORS.gray};
   cursor: pointer;
   @media (max-width: 769px) {
-    padding-left: 20px;
+    position: relative;
+    right: 60px;
+
     h1 {
       font-size: 20px;
     }

@@ -1,4 +1,5 @@
 import Logo from "../../atoms/Logo";
+import SocialMedia from "../../atoms/SocialMedia";
 import NavigationDesktop from "../../molecules/NavigationDesktop";
 import NavigationMobile from "../../molecules/NavigationMobile";
 import { CardHeader, CardLogo } from "./style";
@@ -12,6 +13,7 @@ const Header = () => {
       </CardLogo>
       <NavigationMobile />
       <NavigationDesktop />
+      <SocialMedia />
     </CardHeader>
   );
 };

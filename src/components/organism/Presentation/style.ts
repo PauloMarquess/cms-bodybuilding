@@ -62,7 +62,7 @@ export const Information = styled.div`
 export const Images = styled.img`
   position: relative;
   left: 200px;
-  top: 100px;
+  top: 140px;
   width: 40%;
   border-radius: 28px;
   @media (max-width: 769px) {
