@@ -1,18 +1,20 @@
 import { useState } from "react";
 import { icons } from "../../../assets";
+import ModalMenu from "../ModalMenu";
 import { CardMobile } from "./style";
 
 const NavigationMobile = () => {
-  const [visible, setVisible] = useState(false);
+  const [modalVisible, setModalVisible] = useState(false);
   const handleModal = () => {
-    setVisible(!visible);
+    setModalVisible(!modalVisible);
   };
 
   return (
     <CardMobile>
-      <a>
+      <button onClick={handleModal}>
         <img src={icons.menu} />
-      </a>
+      </button>
+      {modalVisible && <ModalMenu handleModal={handleModal} />}
     </CardMobile>
   );
 };
