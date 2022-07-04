@@ -5,7 +5,7 @@ import { Images, Information } from "./style";
 
 const Presentation = () => {
   return (
-    <Container backgroundColor height="120vh" id="home">
+    <Container backgroundColor height="130vh" id="home">
       <Images src={images.presentation} />
       <Information>
         <h2>Saúde + Poder + Felicidade</h2>
