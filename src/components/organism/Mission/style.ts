@@ -40,7 +40,11 @@ export const ImageMission = styled.div`
     border-radius: 14px;
   }
   @media (max-width: 769px) {
-    display: none;
+    img {
+      position: relative;
+      width: 250px;
+      bottom: 30px;
+    }
   }
 `;
 export const ListObjtive = styled.ul`
