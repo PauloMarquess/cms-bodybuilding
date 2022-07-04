@@ -2,13 +2,16 @@ import { icons } from "../../../assets";
 import { navigation } from "../../../locale/ptBr";
 import { ButtonClose, ModalCard } from "./style";
 
-const ModalMenu = ({ handleModal }: any) => {
+const ModalMenu = ({ setModalVisible, modalVisible }: any) => {
+  const exitModal = () => {
+    setModalVisible(!modalVisible);
+  };
   return (
     <ModalCard>
-      <ButtonClose onClick={handleModal}>
+      <ButtonClose onClick={exitModal}>
         <img src={icons.close} alt="imagem de X" />
       </ButtonClose>
-      <nav>
+      <nav onClick={exitModal}>
         {navigation.map((nav) => (
           <a key={nav.name} href={nav.link}>
             {nav.name}

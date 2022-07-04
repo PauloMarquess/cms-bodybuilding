@@ -1,6 +1,6 @@
 export const navigation = [
   { name: "Inicío", link: "#home" },
-  { name: "Missão" },
+  { name: "Missão", link: "#mission" },
   { name: "Serviços" },
   { name: "Planos" },
   { name: "Contato" },

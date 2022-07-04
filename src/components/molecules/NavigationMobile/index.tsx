@@ -14,7 +14,12 @@ const NavigationMobile = () => {
       <button onClick={handleModal}>
         <img src={icons.menu} />
       </button>
-      {modalVisible && <ModalMenu handleModal={handleModal} />}
+      {modalVisible && (
+        <ModalMenu
+          setModalVisible={setModalVisible}
+          modalVisible={modalVisible}
+        />
+      )}
     </CardMobile>
   );
 };
