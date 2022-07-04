@@ -1,3 +1,4 @@
+import { COLORS } from "./../../../common/index";
 import styled from "styled-components";
 
 export const Information = styled.div`
@@ -11,6 +12,7 @@ export const Information = styled.div`
   right: 100px;
   transition: 1s;
   animation: show 1.5s both;
+  color: ${COLORS.white_default};
   a {
     width: 30%;
   }

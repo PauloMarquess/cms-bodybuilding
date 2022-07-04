@@ -1,3 +1,4 @@
+import { images } from "./../../../assets/index";
 import styled from "styled-components";
 import { COLORS } from "../../../common";
 
@@ -21,7 +22,6 @@ export const Container = styled.section<ContainerProps>`
   height: ${(props) => (props.height ? props.height : "100vh")};
   background-color: ${({ backgroundColor }) =>
     backgroundColor && `${COLORS.black_light}`};
-  color: WHITE;
 
   @media (max-width: 769px) {
     flex-direction: ${({ responsive }) => (responsive ? "column" : "row")};

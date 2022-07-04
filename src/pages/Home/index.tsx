@@ -1,4 +1,5 @@
 import Header from "../../components/organism/Header";
+import Mission from "../../components/organism/Mission";
 import Presentation from "../../components/organism/Presentation";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Header />
       <Presentation />
+      <Mission />
     </div>
   );
 };
