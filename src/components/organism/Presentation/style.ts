@@ -10,6 +10,7 @@ export const Information = styled.div`
   gap: 20px;
   position: relative;
   right: 100px;
+  bottom: 50px;
   transition: 1s;
   animation: show 1.5s both;
   color: ${COLORS.white_default};

@@ -1,25 +1,37 @@
 import { images } from "../../../assets";
 import { Container } from "../../atoms/Container/styled";
-import { CardMission, ImageMission } from "./style";
+import { CardMission, ImageMission, ListObjtive } from "./style";
+import { icons } from "../../../assets";
+import { missionMock } from "../../../locale/ptBr";
 
 const Mission = () => {
   return (
-    <Container background="#cccacb">
+    <Container height="550px" responsive>
       <CardMission>
-        <h1>Construçã de músculos</h1>
+        <h1>
+          Construção de <span>músculos</span>
+        </h1>
         <h3>
-          Charles Mario, especialista em treinamento de volume de 12 semanas
+          <span> | </span> Sem tempo para treinar ? Conheça nosso modelo de
+          treino
         </h3>
         <p>
-          Tomar a decisão de ingressar em uma academia é um ótimo primeiro passo
-          para melhorar sua saúde e qualidade de vida. Por mais de 10 anos, a
-          CMSK tem se dedicado a oferecer às pessoas uma ótima experiência de
-          condicionamento físico, ajudando pessoas de todos os níveis de
-          condicionamento físico a atingir seus objetivos.
+          Mais de 400 pessoas já atingiram seus objetivos seja no ganho de
+          massa, emagrecimento ou definição sem passar anos para ver mudança.
+          Parece mágica, mas é apenas o direcionamento personalizado, que te
+          leva do seu físico atual até sua meta, no menor tempo possível.
         </p>
+        <ListObjtive>
+          {missionMock.map((obj) => (
+            <li key={obj.name}>
+              <img src={icons.verify} />
+              {obj.name}
+            </li>
+          ))}
+        </ListObjtive>
       </CardMission>
       <ImageMission>
-        <img src={images.mission} alt="foto Charles Mario" />
+        <img src={images.crossfit} alt="foto Charles Mario" />
       </ImageMission>
     </Container>
   );
