@@ -68,6 +68,7 @@ export const Images = styled.img`
   width: 40%;
   border-radius: 28px;
   @media (max-width: 769px) {
+    top: 140px;
     width: 100%;
     position: absolute;
     left: 0;
