@@ -16,7 +16,7 @@ export const Footer = () => {
           <EachHour i={item} index={index} key={index} />
         ))}
       </div>
-      <Contact>
+      <div>
         <h2>Contatos</h2>
         {ContactMocks.map((item, index) => (
           <Contact key={index}>
@@ -29,7 +29,7 @@ export const Footer = () => {
             </h5>
           </Contact>
         ))}
-      </Contact>
+      </div>
     </ContainerFooter>
   );
 };
