@@ -36,7 +36,7 @@ export const Contact = styled.div`
     }
   }
   h4 {
-    margin: 10px 0;
+    margin: 20px 0 10px 0;
   }
   h4 a {
     color: ${COLORS.white_default};
