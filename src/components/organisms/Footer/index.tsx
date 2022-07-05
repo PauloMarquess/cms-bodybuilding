@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { ContactMocks, openingHoursMocks } from "../../../locale";
 import Logo from "../../atoms/Logo";
 import { EachHour } from "../../molecules/EachHour";
