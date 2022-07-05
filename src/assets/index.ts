@@ -1,3 +1,5 @@
+import EmailIcons from "./icons/email.svg";
+import TelephoneIcons from "./icons/telephone.svg";
 import Logo from "../assets/images/logo.png";
 import CrossfitBackground from "../assets/images/crossfit3.png";
 import Facebook from "../assets/icons/facebook.svg";
@@ -22,4 +24,6 @@ export const icons = {
   close: Close,
   menu: Menu,
   verify: Verify,
+  email: EmailIcons,
+  telephone: TelephoneIcons,
 };
