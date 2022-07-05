@@ -1,4 +1,3 @@
-import { images } from "./../../../assets/index";
 import styled from "styled-components";
 import { COLORS } from "../../../common";
 

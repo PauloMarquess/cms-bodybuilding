@@ -1,5 +1,7 @@
+import { Container } from "../../atoms/Container/styled";
+
 const Plans = () => {
-  return <div>Planos</div>;
+  return <Container>Planos</Container>;
 };
 
 export default Plans;
