@@ -4,24 +4,17 @@ import { COLORS } from "../../../common";
 export const Container = styled.footer`
   width: 100%;
   padding: 32px 0;
-  color: #aaa;
+  color: ${COLORS.gray_dark};
   background: ${COLORS.black_light};
   display: flex;
-  flex-direction: column;
-`;
-export const InfoContainer = styled.div`
-  display: flex;
   justify-content: space-evenly;
-  .opening-hours {
-    > :first-child {
-      margin-bottom: 20px;
-    }
+  .opening-hours h2 {
+    margin-bottom: 20px;
   }
-
   @media (max-width: 796px) {
     height: 100vh;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
   }
 `;
@@ -42,9 +35,11 @@ export const Contact = styled.div`
       color: ${COLORS.white_default};
     }
   }
+  h4 {
+    margin: 10px 0;
+  }
   h4 a {
     color: ${COLORS.white_default};
-    margin: 10px 0;
   }
   img {
     width: 30px;

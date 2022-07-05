@@ -7,4 +7,5 @@ export const COLORS = {
   black_light: "#000000de",
   black_opacity: "#0000008a",
   gray: "#e1e0e0",
+  gray_dark: "#aaa",
 };

@@ -1,6 +1,11 @@
 import { EachHours } from "./style";
 
-export const EachHour = ({ i, index }: any): any => {
+interface EachHourProps {
+  i?: any;
+  index?: number;
+}
+
+export const EachHour = ({ i, index }: EachHourProps) => {
   const day = new Date().getDay();
   let isDay = false;
   if (index === day) {
