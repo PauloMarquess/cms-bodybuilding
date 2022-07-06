@@ -2,7 +2,7 @@ import React from "react";
 import { ContactMocks, openingHoursMocks } from "../../../locale/ptBr";
 import Logo from "../../atoms/Logo";
 import { EachHour } from "../../molecules/EachHour";
-import { ContainerFooter, Contact, LogoCard } from "./style";
+import { ContainerFooter, Contact, LogoCard, ContactCard ,OpeningHours } from "./style";
 
 export const Footer = () => {
   return (
@@ -10,13 +10,13 @@ export const Footer = () => {
       <LogoCard>
         <Logo />
       </LogoCard>
-      <div className="opening-hours">
+      <OpeningHours>
         <h2>Horário de atendimento</h2>
         {openingHoursMocks.map((item, index) => (
           <EachHour i={item} index={index} key={index} />
         ))}
-      </div>
-      <div>
+      </OpeningHours>
+      <ContactCard>
         <h2>Contatos</h2>
         {ContactMocks.map((item, index) => (
           <Contact key={index}>
@@ -29,7 +29,7 @@ export const Footer = () => {
             </h5>
           </Contact>
         ))}
-      </div>
+      </ContactCard>
     </ContainerFooter>
   );
 };

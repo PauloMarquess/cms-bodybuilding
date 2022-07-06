@@ -69,7 +69,7 @@ export const typesPlans = [
 export const ContactMocks = [
   {
     icon: icons.telephone,
-    title: "0800 999 1111",
+    title: "+5587991054786",
     subTitle: "Atendemos 24 horas por dia",
     href: "tel:+5587991054786",
   },

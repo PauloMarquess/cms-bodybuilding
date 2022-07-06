@@ -8,9 +8,7 @@ export const ContainerFooter = styled.footer`
   background: ${COLORS.black_light};
   display: flex;
   justify-content: space-evenly;
-  .opening-hours h2 {
-    margin-bottom: 20px;
-  }
+
   @media (max-width: 796px) {
     height: auto;
     flex-direction: column;
@@ -22,14 +20,23 @@ export const ContainerFooter = styled.footer`
     }
   }
 `;
-
 export const LogoCard = styled.div`
   img {
     width: 100px;
-    height: 120px;
+    height: 100px;
+  }
+`;
+export const OpeningHours = styled.div`
+  h2 {
+    margin-bottom: 20px;
   }
 `;
 
+export const ContactCard = styled.div`
+  @media (max-width: 769px) {
+    width: 100%;
+  }
+`;
 export const Contact = styled.div`
   width: 100%;
   margin-top: 32px;
@@ -48,8 +55,5 @@ export const Contact = styled.div`
   img {
     width: 30px;
     height: 30px;
-  }
-  @media (max-width: 769px) {
-    width: 100%;
   }
 `;
