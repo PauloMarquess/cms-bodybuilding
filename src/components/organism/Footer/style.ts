@@ -20,6 +20,7 @@ export const ContainerFooter = styled.footer`
     }
   }
 `;
+
 export const LogoCard = styled.div`
   img {
     width: 100px;
