@@ -3,7 +3,7 @@ import { COLORS } from "../../../common";
 
 export const ContainerFooter = styled.footer`
   width: 100%;
-  padding: 40px 30px;
+  padding: 0 40px;
   color: ${COLORS.gray_dark};
   background: ${COLORS.black_light};
   display: flex;
