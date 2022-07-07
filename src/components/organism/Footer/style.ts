@@ -3,7 +3,7 @@ import { COLORS } from "../../../common";
 
 export const ContainerFooter = styled.footer`
   width: 100%;
-  padding: 0 40px;
+  padding: 40px 30px;
   color: ${COLORS.gray_dark};
   background: ${COLORS.black_light};
   display: flex;
@@ -15,6 +15,7 @@ export const ContainerFooter = styled.footer`
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
+
     h2 {
       text-align: start;
     }
@@ -30,6 +31,9 @@ export const LogoCard = styled.div`
 export const OpeningHours = styled.div`
   h2 {
     margin-bottom: 20px;
+  }
+  @media (max-width: 769px) {
+    width: 100%;
   }
 `;
 
