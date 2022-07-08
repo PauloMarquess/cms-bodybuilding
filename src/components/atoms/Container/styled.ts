@@ -16,6 +16,7 @@ export const Container = styled.section<ContainerProps>`
   display: flex;
   flex-direction: ${({ column }) => (column ? "column" : "row")};
   justify-content: ${(props) => (props.justify ? props.justify : "center")};
+  background: ${({ background }) => background || "none"};
   align-items: ${(props) => (props.align ? props.align : "center")};
   width: ${(props) => (props.width ? props.width : "100%")};
   height: ${(props) => (props.height ? props.height : "100vh")};

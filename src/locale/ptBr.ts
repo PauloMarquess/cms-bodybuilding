@@ -17,9 +17,10 @@ export const missionMock = [
 
 export const typesPlans = [
   {
-    title: "Plano Bronze",
+    title: "Plano Basico",
     value: "30",
     description: " Obtenha o plano que melhor se adequa ao seu dia-a-dia",
+    link: "Paulinho_marques2012@hotmail.com",
     benefits: [
       { name: "Aulas de boxe" },
       { name: "Aulas de Fitdance" },
@@ -31,13 +32,13 @@ export const typesPlans = [
   {
     title: "Plano Prata",
     value: "50",
+    destak: true,
     description: " Obtenha o plano que melhor se adequa ao seu dia-a-dia",
     benefits: [
       { name: "Aulas de boxe" },
       { name: "Aulas de Fitdance" },
       { name: "Aulas de Pilates" },
       { name: "Treinamento 5 dias por semana" },
-      { name: "Consulta Nutricionista trimestral" },
     ],
   },
   {
@@ -49,7 +50,6 @@ export const typesPlans = [
       { name: "Aulas de Fitdance" },
       { name: "Aulas de Pilates" },
       { name: "Treinamento 7 dias por semana" },
-      { name: "Consulta Nutricionista trimestral" },
     ],
   },
   {
@@ -61,7 +61,6 @@ export const typesPlans = [
       { name: "Aulas de Fitdance" },
       { name: "Aulas de Pilates" },
       { name: "Treinamento 3 dias por semana" },
-      { name: "Consulta Nutricionista trimestral" },
     ],
   },
 ];

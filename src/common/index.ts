@@ -8,4 +8,5 @@ export const COLORS = {
   black_light: "#1c1c1d",
   gray: "#bdbdbd",
   gray_dark: "#aaa",
+  primary_opacity: "#f1e02087",
 };
