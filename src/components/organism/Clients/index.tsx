@@ -1,7 +1,13 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import { ClientCard, Container, SlideContainer, TextContainer } from "./style";
+import {
+  ClientCard,
+  Container,
+  SlideContainer,
+  TextContainer,
+  Background,
+} from "./style";
 export const Clients = () => {
   const images = [
     "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
@@ -10,6 +16,7 @@ export const Clients = () => {
   ];
   return (
     <Container>
+      <Background />
       <TextContainer>
         <h1>Super Clients Says</h1>
         <p>
@@ -22,7 +29,9 @@ export const Clients = () => {
           {images.map((i) => (
             <div className="each-slide-effect">
               <ClientCard>
-                <img src={i} alt="img" />
+                <div className="border-clip">
+                  <img src={i} alt="img" />
+                </div>
               </ClientCard>
             </div>
           ))}
