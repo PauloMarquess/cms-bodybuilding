@@ -1,42 +1,62 @@
-import React from "react";
 import { Slide } from "react-slideshow-image";
+import { StarMaped, ClientsMocks } from "../../../__mocks__";
 import "react-slideshow-image/dist/styles.css";
+import { icons } from "../../../assets";
+import { Container } from "../../atoms/Container/styled";
 import {
   ClientCard,
-  Container,
+  ContainerClients,
   SlideContainer,
   TextContainer,
   Background,
+  ClientDescription,
+  buttonStyle,
 } from "./style";
+
+const properties = {
+  arrows: false,
+  indicators: () => <div className="indicator" />,
+};
+
 export const Clients = () => {
-  const images = [
-    "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-    "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-  ];
   return (
-    <Container>
+    <ContainerClients>
       <Background />
       <TextContainer>
-        <h1>Super Clients Says</h1>
+        <h1>
+          Clientes <span>Treinados</span> dizem
+        </h1>
         <p>
-          Lorem ipsum dolor sit, aliquid recusandae totam praesentium adipisci
-          amet.
+          “Eu gosto da cor vermelha porque lembra fogo. E eu vejo a mim mesmo
+          sempre pegando fogo.” - Arnold Schwarzenegger
         </p>
       </TextContainer>
       <SlideContainer>
-        <Slide>
-          {images.map((i) => (
+        <Slide {...properties}>
+          {ClientsMocks.map((i) => (
             <div className="each-slide-effect">
               <ClientCard>
                 <div className="border-clip">
-                  <img src={i} alt="img" />
+                  <img src={i.img} alt="img" />
                 </div>
+                <ClientDescription>
+                  <img src={icons.aspa} />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat id alias ea rem reprehenderit ad rerum at aliquid
+                    debitis delectus? Doloremque at quod quibusdam temporibus
+                    ullam earum quae, expedita vitae.
+                  </p>
+                  <Container height="auto" justify="space-between">
+                    <h4>{i.name}</h4>
+                    <div>{StarMaped}</div>
+                  </Container>
+                </ClientDescription>
               </ClientCard>
             </div>
           ))}
         </Slide>
       </SlideContainer>
-    </Container>
+    </ContainerClients>
   );
 };

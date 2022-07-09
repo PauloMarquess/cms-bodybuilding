@@ -10,11 +10,21 @@ import Presentation from "../assets/images/presentatio.jpeg";
 import Menu from "../assets/icons/menu.svg";
 import Close from "../assets/icons/close.svg";
 import Verify from "../assets/icons/verify.svg";
+import Aspa from "./icons/aspa.svg";
+import Star from "./icons/star.svg";
+import ArrowLeft from "./icons/arrowleft.svg";
+import ArrowRight from "./icons/arrowright.svg";
+import JeredyClient from "./images/jeredyclient.png";
+import JorgeClient from "./images/jorgeclient.jpeg";
+import SebastiaoClient from "./images/sebastiaoclient.png";
 
 export const images = {
   logo: Logo,
   presentation: Presentation,
   crossfit: CrossfitBackground,
+  Jeredy: JeredyClient,
+  Jorge: JorgeClient,
+  Sebastiao: SebastiaoClient,
 };
 export const icons = {
   facebook: Facebook,
@@ -26,4 +36,8 @@ export const icons = {
   verify: Verify,
   email: EmailIcons,
   telephone: TelephoneIcons,
+  aspa: Aspa,
+  Star: Star,
+  ArrowLeft: ArrowLeft,
+  ArrowRight: ArrowRight,
 };
