@@ -5,7 +5,7 @@ export const CardPlans = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 15px;
   color: ${COLORS.white_default};
   @media (max-width: 769px) {
     flex-direction: column;
@@ -25,16 +25,17 @@ export const CardPlan = styled.div`
   height: 70vh;
   cursor: pointer;
   position: relative;
-  background-color: ${COLORS.primary};
+  background-color: ${COLORS.third};
+  color: black;
   margin: 0 10px;
   transition: all 0.5s ease;
   :nth-child(2) {
     background-color: ${COLORS.black};
-  }
-  :hover {
     width: 25%;
     height: 75vh;
+    color: ${COLORS.gray};
   }
+
   @media (max-width: 769px) {
     width: 100%;
 
@@ -71,7 +72,7 @@ export const Price = styled.span`
 export const Divider = styled.div`
   width: 90%;
   height: 1px;
-  background: ${COLORS.gray};
+  background: ${COLORS.white_default};
   position: relative;
   bottom: 10px;
 `;

@@ -12,7 +12,6 @@ import {
   ListBenefit,
   Price,
 } from "./style";
-import { COLORS } from "../../../common";
 
 const Plans = () => {
   return (
@@ -42,7 +41,9 @@ const Plans = () => {
                 </li>
               ))}
             </ListBenefit>
-            <ButtonLink link="#teste">Iniciar Plano</ButtonLink>
+            <ButtonLink boxShadow borderRadius="10px" link="#teste">
+              Iniciar Plano
+            </ButtonLink>
           </CardPlan>
         ))}
       </CardPlans>
