@@ -5,8 +5,6 @@ export const CardMobile = styled.div`
   width: 100%;
   @media (max-width: 769px) {
     display: flex;
-    margin: auto;
-
     img {
       width: 50px;
       position: fixed;

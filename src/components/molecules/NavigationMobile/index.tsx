@@ -11,9 +11,7 @@ const NavigationMobile = () => {
 
   return (
     <CardMobile>
-      <button onClick={handleModal}>
-        <img src={icons.menu} />
-      </button>
+      <img src={icons.menu} onClick={handleModal} />
       {modalVisible && (
         <ModalMenu
           setModalVisible={setModalVisible}

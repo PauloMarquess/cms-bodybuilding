@@ -57,6 +57,7 @@ export const CardPlan = styled.div`
     }
     :nth-child(2) {
       width: 100%;
+      height: 70vh;
     }
   }
 `;
