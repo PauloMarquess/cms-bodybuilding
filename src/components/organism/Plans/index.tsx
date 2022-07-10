@@ -9,13 +9,17 @@ import {
   Cifrao,
   CrownAbsolute,
   Divider,
+  LegensPlan,
   ListBenefit,
   Price,
 } from "./style";
 
 const Plans = () => {
   return (
-    <Container id="plans">
+    <Container id="plans" column responsive>
+      <LegensPlan>
+        Conheça os planos da <span>CMSK</span>{" "}
+      </LegensPlan>
       <CardPlans>
         {typesPlans.map((plan) => (
           <CardPlan>
@@ -28,7 +32,7 @@ const Plans = () => {
               <Cifrao>$</Cifrao> <Price>{plan.value} </Price> /Mês
             </p>
             <Divider />
-            <p> {plan.description}</p>
+
             <h3>Beneficios do plano</h3>
             <h6>{plan.title}</h6>
             <ListBenefit>

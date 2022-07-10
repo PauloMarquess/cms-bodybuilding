@@ -1,6 +1,18 @@
 import { COLORS } from "./../../../common/index";
 import styled from "styled-components";
 
+export const LegensPlan = styled.h1`
+  margin: 50px 0;
+  text-align: center;
+
+  span {
+    color: ${COLORS.primary};
+  }
+  @media (max-width: 769px) {
+    margin: 50px 0 25px 0;
+  }
+`;
+
 export const CardPlans = styled.div`
   display: flex;
   align-items: center;
@@ -22,17 +34,17 @@ export const CardPlan = styled.div`
   border-radius: 8px;
   background-color: red;
   width: 22%;
-  height: 70vh;
+  height: 60vh;
   cursor: pointer;
   position: relative;
   background-color: ${COLORS.third};
   color: black;
-  margin: 0 10px;
+  margin-bottom: 50px;
   transition: all 0.5s ease;
   :nth-child(2) {
     background-color: ${COLORS.black};
     width: 25%;
-    height: 75vh;
+    height: 65vh;
     color: ${COLORS.gray};
   }
 
@@ -43,6 +55,9 @@ export const CardPlan = styled.div`
       width: 100%;
       bottom: 0;
       height: 70vh;
+    }
+    :nth-child(2) {
+      width: 100%;
     }
   }
 `;
