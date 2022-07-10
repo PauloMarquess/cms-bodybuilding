@@ -1,3 +1,4 @@
+import ChangeLanguage from "../../atoms/ChangeLanguage";
 import Logo from "../../atoms/Logo";
 import SocialMedia from "../../atoms/SocialMedia";
 import NavigationDesktop from "../../molecules/NavigationDesktop";
@@ -14,6 +15,7 @@ const Header = () => {
       <NavigationMobile />
       <NavigationDesktop />
       <SocialMedia />
+      <ChangeLanguage />
     </CardHeader>
   );
 };

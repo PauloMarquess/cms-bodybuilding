@@ -29,6 +29,7 @@ export const LogoCard = styled.div`
   }
 `;
 export const OpeningHours = styled.div`
+  width: 25%;
   h2 {
     margin-bottom: 20px;
   }

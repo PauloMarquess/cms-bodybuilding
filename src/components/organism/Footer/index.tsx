@@ -1,8 +1,14 @@
-import React from "react";
-import { ContactMocks, openingHoursMocks } from "../../../locale/ptBr";
 import Logo from "../../atoms/Logo";
 import { EachHour } from "../../molecules/EachHour";
-import { ContainerFooter, Contact, LogoCard, ContactCard ,OpeningHours } from "./style";
+import { i18n } from "../../../translate/i18n.js";
+import {
+  ContainerFooter,
+  Contact,
+  LogoCard,
+  ContactCard,
+  OpeningHours,
+} from "./style";
+import { contact, openingHours } from "../../../__mocks__";
 
 export const Footer = () => {
   return (
@@ -11,14 +17,14 @@ export const Footer = () => {
         <Logo />
       </LogoCard>
       <OpeningHours>
-        <h2>Horário de atendimento</h2>
-        {openingHoursMocks.map((item, index) => (
+        <h2>{i18n.t("footer.openingHours.title")}</h2>
+        {openingHours.map((item, index) => (
           <EachHour i={item} index={index} key={index} />
         ))}
       </OpeningHours>
       <ContactCard>
-        <h2>Contatos</h2>
-        {ContactMocks.map((item, index) => (
+        <h2>{i18n.t("footer.contacts.title")}</h2>
+        {contact.map((item, index) => (
           <Contact key={index}>
             <img src={item.icon} alt="icone" />
             <h4>

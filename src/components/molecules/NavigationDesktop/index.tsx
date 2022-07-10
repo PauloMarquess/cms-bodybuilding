@@ -1,5 +1,4 @@
-import { navigation } from "../../../locale/ptBr";
-import { socialMedia } from "../../../__mocks__";
+import { socialMedia, navigation } from "../../../__mocks__";
 import { Media, Navigation } from "./style";
 
 const NavigationDesktop = () => {

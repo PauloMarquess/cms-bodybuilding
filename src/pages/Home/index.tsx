@@ -6,13 +6,13 @@ import { Footer } from "../../components/organism/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header />
       <Presentation />
       <Mission />
       <Plans />
       <Footer />
-    </div>
+    </>
   );
 };
 

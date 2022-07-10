@@ -18,6 +18,7 @@ export const CardPlans = styled.div`
   align-items: center;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
   color: ${COLORS.white_default};
   @media (max-width: 769px) {
     flex-direction: column;
@@ -41,9 +42,12 @@ export const CardPlan = styled.div`
   color: black;
   margin-bottom: 50px;
   transition: all 0.5s ease;
+  min-width: 300px;
+
   :nth-child(2) {
     background-color: ${COLORS.black};
     width: 25%;
+    min-width: 330px;
     height: 65vh;
     color: ${COLORS.gray};
   }

@@ -1,8 +1,8 @@
-import { icons } from "../../../assets";
-import { typesPlans } from "../../../locale/ptBr";
-import { images } from "../../../assets";
+import { icons, images } from "../../../assets";
 import { Container } from "../../atoms/Container/styled";
 import ButtonLink from "../../ButtonLink";
+import { plans } from "../../../__mocks__";
+import { i18n } from "../../../translate/i18n.js";
 import {
   CardPlan,
   CardPlans,
@@ -16,25 +16,24 @@ import {
 
 const Plans = () => {
   return (
-    <Container id="plans" column responsive>
+    <Container id="plans" height="auto" column responsive>
       <LegensPlan>
-        Conheça os planos da <span>CMSK</span>{" "}
+        {i18n.t("plans.title")} <span>{i18n.t("plans.titleSpan")}</span>{" "}
       </LegensPlan>
       <CardPlans>
-        {typesPlans.map((plan) => (
+        {plans.map((plan) => (
           <CardPlan>
             {plan.destak && (
               <CrownAbsolute src={images.crown} alt="imagem da coroa" />
             )}
-
-            <h3>{plan.title}</h3>
+            <h3>{plan.legend}</h3>
             <p>
-              <Cifrao>$</Cifrao> <Price>{plan.value} </Price> /Mês
+              <Cifrao>$</Cifrao> <Price>{plan.price} </Price> /{plan.month}
             </p>
             <Divider />
 
-            <h3>Beneficios do plano</h3>
-            <h6>{plan.title}</h6>
+            <h3>{i18n.t("plans.benefitsPlans")}</h3>
+            <h6>{plan.legend}</h6>
             <ListBenefit>
               {plan.benefits.map((benefit) => (
                 <li>
@@ -46,7 +45,7 @@ const Plans = () => {
               ))}
             </ListBenefit>
             <ButtonLink boxShadow borderRadius="10px" link="#teste">
-              Iniciar Plano
+              {i18n.t("plans.button")}
             </ButtonLink>
           </CardPlan>
         ))}

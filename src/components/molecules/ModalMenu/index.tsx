@@ -1,5 +1,5 @@
 import { icons } from "../../../assets";
-import { navigation } from "../../../locale/ptBr";
+import { navigation } from "../../../__mocks__";
 import { ButtonClose, ModalCard } from "./style";
 
 const ModalMenu = ({ setModalVisible, modalVisible }: any) => {

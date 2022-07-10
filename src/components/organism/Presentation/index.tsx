@@ -2,22 +2,17 @@ import { images } from "../../../assets";
 import { Container } from "../../atoms/Container/styled";
 import ButtonLink from "../../ButtonLink";
 import { Images, Information } from "./style";
+import { i18n } from "../../../translate/i18n.js";
 
 const Presentation = () => {
   return (
     <Container backgroundColor height="140vh" id="home">
       <Images src={images.presentation} />
       <Information>
-        <h2>Saúde + Poder + Felicidade</h2>
-        <h1>Construa seu corpo</h1>
-        <h6>
-          Nossa equipe qualificada de instrutores ajuda nossos clientes a
-          desenvolver seus corpos e mentes, alcançar os melhores resultados e
-          aproveitar os verdadeiros desafios de condicionamento físico enquanto
-          estamos motivados positivamente. Resultados que você e seu corpo
-          merecem.
-        </h6>
-        <ButtonLink link="#" children="Comece agora" />
+        <h2>{i18n.t("presentation.title")}</h2>
+        <h1>{i18n.t("presentation.subtitle")}</h1>
+        <h6>{i18n.t("presentation.description")}</h6>
+        <ButtonLink link="#" children={i18n.t("presentation.button")} />
       </Information>
     </Container>
   );
