@@ -50,11 +50,10 @@ export const CardPlan = styled.div`
 
   @media (max-width: 769px) {
     width: 100%;
-
+    height: 70vh;
     :hover {
       width: 100%;
       bottom: 0;
-      height: 70vh;
     }
     :nth-child(2) {
       width: 100%;
