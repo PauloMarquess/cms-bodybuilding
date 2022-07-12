@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { COLORS } from "../../../common";
 import { icons } from "../../../assets";
-import "react-slideshow-image/dist/styles.css";
 
 export const ContainerClients = styled.div`
   display: flex;
@@ -48,11 +47,27 @@ export const SlideContainer = styled.div`
   margin: auto 0;
   .swiper {
     overflow: visible;
+    padding-left: 400px;
+    @media (max-width: 769px) {
+      padding: 0 0 0 50px;
+    }
   }
+
   .swiper-button-next,
   .swiper-button-prev {
-    top: 126%;
+    top: 122%;
     margin: 0 40%;
+    @media (max-width: 769px) {
+      display: none;
+    }
+  }
+  .swiper-pagination-bullet {
+    background-color: ${COLORS.black};
+    border: 3px solid ${COLORS.white_default};
+    padding: 4px;
+  }
+  .swiper-pagination-bullet-active {
+    border: 3px solid ${COLORS.primary};
   }
   .swiper-button-next:after {
     content: url(${icons.ArrowRight});
@@ -71,9 +86,8 @@ export const SlideContainer = styled.div`
 `;
 export const ClientCard = styled.div`
   display: flex;
-  width: 50%;
+  width: 600px;
   height: 40vh;
-  margin-left: 25%;
   background: ${COLORS.white_dark};
   border: 5px solid ${COLORS.white_100};
   border-radius: 13px;
@@ -100,22 +114,28 @@ export const ClientCard = styled.div`
     }
   }
   @media (max-width: 769px) {
-    width: 80%;
+    width: 75%;
   }
 `;
 
 export const ClientDescription = styled.div`
-  width: 40%;
-  padding: 10px;
+  width: 50%;
   display: flex;
   color: ${COLORS.black_light};
   flex-direction: column;
   justify-content: space-between;
+  .name-stars {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
   h4 {
+    font-size: 0.8rem;
     color: ${COLORS.black};
   }
   p {
-    width: 120%;
+    font-size: 0.8rem;
+    width: 100%;
   }
   img {
     width: 20px;
@@ -123,10 +143,6 @@ export const ClientDescription = styled.div`
   }
   @media (max-width: 769px) {
     width: 100%;
+    padding: 10px;
   }
 `;
-export const buttonStyle = {
-  width: "30px",
-  background: "none",
-  border: "0px",
-};

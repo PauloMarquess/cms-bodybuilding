@@ -1,4 +1,4 @@
-import { Navigation, Pagination } from "swiper";
+import SwiperCore, { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -15,19 +15,7 @@ import {
   ClientDescription,
 } from "./style";
 
-/* const properties = {
-  prevArrow: (
-    <button style={{ ...buttonStyle }}>
-      <img src={icons.ArrowLeft} />
-    </button>
-  ),
-  nextArrow: (
-    <button style={{ ...buttonStyle }}>
-      <img src={icons.ArrowRight} />
-    </button>
-  ),
-  indicators: () => <div className="indicator" />,
-}; */
+SwiperCore.use([Navigation, Pagination]);
 
 export const Clients = () => {
   return (
@@ -44,8 +32,7 @@ export const Clients = () => {
       </TextContainer>
       <SlideContainer>
         <Swiper
-          spaceBetween={-400}
-          modules={[Navigation, Pagination]}
+          spaceBetween={20}
           navigation
           pagination={{ clickable: true }}
         >
@@ -63,10 +50,10 @@ export const Clients = () => {
                     debitis delectus? Doloremque at quod quibusdam temporibus
                     ullam earum quae, expedita vitae.
                   </p>
-                  <Container height="auto" justify="space-between">
+                  <div className="name-stars">
                     <h4>{i.name}</h4>
                     <div>{StarMaped}</div>
-                  </Container>
+                  </div>
                 </ClientDescription>
               </ClientCard>
             </SwiperSlide>
