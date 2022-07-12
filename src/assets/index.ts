@@ -1,3 +1,5 @@
+import Brasil from "../assets/images/brasil.png";
+import England from "../assets/images/england.png";
 import Presentation from "../assets/images/presentatio.jpeg";
 import Logo from "../assets/images/logo.png";
 import CrossfitBackground from "../assets/images/crossfit3.png";
@@ -18,6 +20,8 @@ export const images = {
   presentation: Presentation,
   crossfit: CrossfitBackground,
   crown: Crown,
+  brasil: Brasil,
+  england: England,
 };
 export const icons = {
   facebook: Facebook,

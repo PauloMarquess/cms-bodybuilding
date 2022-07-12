@@ -1,3 +1,4 @@
+import { CardSelect } from "./style";
 const ChangeLanguage = () => {
   const I18N_STORAGE_KEY = "i18nextLng";
   const handleSelectChange = (event: any) => {
@@ -7,13 +8,13 @@ const ChangeLanguage = () => {
   };
 
   return (
-    <>
+    <CardSelect>
       <select onChange={handleSelectChange}>
-        <option selected>Mudar Idioma</option>
+        <option selected>Mudar Idioma </option>
         <option value="pt-BR">Português</option>
         <option value="en-US">Inglish</option>
       </select>
-    </>
+    </CardSelect>
   );
 };
 
