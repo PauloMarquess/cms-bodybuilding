@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { COLORS } from "../../../common";
+import { icons } from "../../../assets";
 import "react-slideshow-image/dist/styles.css";
 
 export const ContainerClients = styled.div`
@@ -45,40 +46,34 @@ export const TextContainer = styled.div`
 `;
 export const SlideContainer = styled.div`
   margin: auto 0;
-  .each-slide-effect {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .swiper {
+    overflow: visible;
   }
-  .nav.default-nav {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 126%;
+    margin: 0 40%;
   }
-  .indicators {
-    position: absolute;
-    left: 50%;
-    bottom: 22%;
-    @media (max-width: 769px) {
-      left: 45%;
-    }
+  .swiper-button-next:after {
+    content: url(${icons.ArrowRight});
+    width: 60px;
+    height: 60px;
   }
-  .indicator {
-    cursor: pointer;
-    width: 10px;
-    height: 10px;
-    padding: 4px;
-    background: ${COLORS.black_light};
-    border: 3px solid ${COLORS.white_default};
-    border-radius: 50%;
+  .swiper-button-prev:after {
+    content: url(${icons.ArrowLeft});
+    width: 60px;
+    height: 60px;
   }
-  .indicator.active {
-    border: 3px solid ${COLORS.third};
+  .swiper-pagination-horizontal,
+  .swiper-pagination-fraction {
+    top: 125%;
   }
 `;
-
 export const ClientCard = styled.div`
   display: flex;
   width: 50%;
   height: 40vh;
+  margin-left: 25%;
   background: ${COLORS.white_dark};
   border: 5px solid ${COLORS.white_100};
   border-radius: 13px;
@@ -119,6 +114,9 @@ export const ClientDescription = styled.div`
   h4 {
     color: ${COLORS.black};
   }
+  p {
+    width: 120%;
+  }
   img {
     width: 20px;
     height: 20px;
@@ -127,7 +125,6 @@ export const ClientDescription = styled.div`
     width: 100%;
   }
 `;
-
 export const buttonStyle = {
   width: "30px",
   background: "none",

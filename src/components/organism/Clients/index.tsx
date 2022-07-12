@@ -1,6 +1,9 @@
-import { Slide } from "react-slideshow-image";
+import { Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import { StarMaped, ClientsMocks } from "../../../__mocks__";
-import "react-slideshow-image/dist/styles.css";
 import { icons } from "../../../assets";
 import { Container } from "../../atoms/Container/styled";
 import {
@@ -10,13 +13,21 @@ import {
   TextContainer,
   Background,
   ClientDescription,
-  buttonStyle,
 } from "./style";
 
-const properties = {
-  arrows: false,
+/* const properties = {
+  prevArrow: (
+    <button style={{ ...buttonStyle }}>
+      <img src={icons.ArrowLeft} />
+    </button>
+  ),
+  nextArrow: (
+    <button style={{ ...buttonStyle }}>
+      <img src={icons.ArrowRight} />
+    </button>
+  ),
   indicators: () => <div className="indicator" />,
-};
+}; */
 
 export const Clients = () => {
   return (
@@ -32,9 +43,14 @@ export const Clients = () => {
         </p>
       </TextContainer>
       <SlideContainer>
-        <Slide {...properties}>
+        <Swiper
+          spaceBetween={-400}
+          modules={[Navigation, Pagination]}
+          navigation
+          pagination={{ clickable: true }}
+        >
           {ClientsMocks.map((i) => (
-            <div className="each-slide-effect">
+            <SwiperSlide>
               <ClientCard>
                 <div className="border-clip">
                   <img src={i.img} alt="img" />
@@ -53,9 +69,9 @@ export const Clients = () => {
                   </Container>
                 </ClientDescription>
               </ClientCard>
-            </div>
+            </SwiperSlide>
           ))}
-        </Slide>
+        </Swiper>
       </SlideContainer>
     </ContainerClients>
   );
