@@ -32,7 +32,8 @@ export const Clients = () => {
       </TextContainer>
       <SlideContainer>
         <Swiper
-          spaceBetween={20}
+          spaceBetween={100}
+          slidesPerView={1.5}
           navigation
           pagination={{ clickable: true }}
         >

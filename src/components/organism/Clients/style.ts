@@ -46,17 +46,17 @@ export const TextContainer = styled.div`
 export const SlideContainer = styled.div`
   margin: auto 0;
   .swiper {
-    overflow: visible;
+    width: 100%;
     padding-left: 400px;
     @media (max-width: 769px) {
-      padding: 0 0 0 50px;
+      padding: 0;
     }
   }
 
   .swiper-button-next,
   .swiper-button-prev {
     top: 122%;
-    margin: 0 40%;
+    margin: 0 44%;
     @media (max-width: 769px) {
       display: none;
     }
@@ -82,6 +82,9 @@ export const SlideContainer = styled.div`
   .swiper-pagination-horizontal,
   .swiper-pagination-fraction {
     top: 125%;
+    @media (max-width: 769px) {
+      display: none;
+    }
   }
 `;
 export const ClientCard = styled.div`
@@ -114,7 +117,7 @@ export const ClientCard = styled.div`
     }
   }
   @media (max-width: 769px) {
-    width: 75%;
+    width: 100%;
   }
 `;
 
