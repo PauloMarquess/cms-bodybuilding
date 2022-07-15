@@ -1,6 +1,5 @@
 import { icons, images } from "../../../assets";
-import { Container } from "../../atoms/Container/styled";
-import ButtonLink from "../../ButtonLink";
+import { Container, ButtonLink } from "../../../components";
 import { plans } from "../../../__mocks__";
 import { i18n } from "../../../translate/i18n.js";
 import {

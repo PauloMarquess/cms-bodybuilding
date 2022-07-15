@@ -1,6 +1,6 @@
 import { icons } from "../../../assets";
 import { navigation } from "../../../__mocks__";
-import ChangeLanguage from "../../atoms/ChangeLanguage";
+import { ChangeLanguage } from "../../../components";
 import { ButtonClose, Header, ModalCard } from "./style";
 
 const ModalMenu = ({ setModalVisible, modalVisible }: any) => {

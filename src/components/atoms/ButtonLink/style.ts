@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS } from "../../common";
+import { COLORS } from "../../../common";
 
 interface CardButtonProps {
   borderRadius?: string;

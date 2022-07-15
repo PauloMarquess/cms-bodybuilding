@@ -1,7 +1,6 @@
-import { images } from "../../../assets";
-import { Container } from "../../atoms/Container/styled";
+import { images, icons } from "../../../assets";
+import { Container } from "../../../components";
 import { CardMission, ImageMission, ListObjtive } from "./style";
-import { icons } from "../../../assets";
 import { i18n } from "../../../translate/i18n.js";
 import { objective } from "../../../__mocks__";
 

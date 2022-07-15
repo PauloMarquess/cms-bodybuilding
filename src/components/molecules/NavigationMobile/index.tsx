@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { icons } from "../../../assets";
-import ModalMenu from "../ModalMenu";
+import { ModalMenu } from "../../../components";
 import { CardMobile, IconCard } from "./style";
 
 const NavigationMobile = () => {

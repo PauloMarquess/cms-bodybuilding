@@ -1,6 +1,6 @@
-import Logo from "../../atoms/Logo";
-import { EachHour } from "../../molecules/EachHour";
 import { i18n } from "../../../translate/i18n.js";
+import { contact, openingHours } from "../../../__mocks__";
+import { Logo, EachHour } from "../../../components";
 import {
   ContainerFooter,
   Contact,
@@ -8,9 +8,8 @@ import {
   ContactCard,
   OpeningHours,
 } from "./style";
-import { contact, openingHours } from "../../../__mocks__";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <ContainerFooter id="contact">
       <LogoCard>
@@ -39,3 +38,5 @@ export const Footer = () => {
     </ContainerFooter>
   );
 };
+
+export default Footer;

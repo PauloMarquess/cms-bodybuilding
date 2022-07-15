@@ -13,7 +13,7 @@ const ChangeLanguage = () => {
   const [selectedCountry, setSelectedCountry] = useState<any>(countries[0]);
 
   useEffect(() => {
-    const data = localStorage.getItem("index");
+    const data: any = localStorage.getItem("index");
     const obj = JSON.parse(data);
     setSelectedCountry(countries[obj]);
   }, []);

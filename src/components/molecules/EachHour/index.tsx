@@ -5,7 +5,7 @@ interface EachHourProps {
   index?: number;
 }
 
-export const EachHour = ({ i, index }: EachHourProps) => {
+const EachHour = ({ i, index }: EachHourProps) => {
   const day = new Date().getDay();
   let isDay = false;
   if (index === day) {
@@ -19,3 +19,5 @@ export const EachHour = ({ i, index }: EachHourProps) => {
     </EachHours>
   );
 };
+
+export default EachHour;

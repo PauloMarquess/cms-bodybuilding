@@ -1,8 +1,11 @@
-import ChangeLanguage from "../../atoms/ChangeLanguage";
-import Logo from "../../atoms/Logo";
-import SocialMedia from "../../atoms/SocialMedia";
-import NavigationDesktop from "../../molecules/NavigationDesktop";
-import NavigationMobile from "../../molecules/NavigationMobile";
+import {
+  ChangeLanguage,
+  Logo,
+  SocialMedia,
+  NavigationDesktop,
+  NavigationMobile,
+} from "../../../components";
+
 import { CardHeader, CardLogo, InvisibleMobile } from "./style";
 
 const Header = () => {
