@@ -46,20 +46,35 @@ export const TextContainer = styled.div`
 export const SlideContainer = styled.div`
   margin: auto 0;
   .swiper {
+    padding: 100px 0;
     width: 100%;
-    padding-left: 400px;
     @media (max-width: 769px) {
-      padding: 0;
+      padding: 100px 0;
     }
   }
 
   .swiper-button-next,
   .swiper-button-prev {
-    top: 122%;
-    margin: 0 44%;
+    top: 85%;
+    margin: 0 41%;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
     @media (max-width: 769px) {
       display: none;
     }
+    @media (max-width: 1115px) {
+      margin: 0 39%;
+    }
+    @media (max-width: 860px) {
+      margin: 0 35%;
+    }
+  }
+  .swiper-button-next {
+    content: url(${icons.ArrowRight});
+  }
+  .swiper-button-prev {
+    content: url(${icons.ArrowLeft});
   }
   .swiper-pagination-bullet {
     background-color: ${COLORS.black};
@@ -69,28 +84,16 @@ export const SlideContainer = styled.div`
   .swiper-pagination-bullet-active {
     border: 3px solid ${COLORS.primary};
   }
-  .swiper-button-next:after {
-    content: url(${icons.ArrowRight});
-    width: 60px;
-    height: 60px;
-  }
-  .swiper-button-prev:after {
-    content: url(${icons.ArrowLeft});
-    width: 60px;
-    height: 60px;
-  }
   .swiper-pagination-horizontal,
   .swiper-pagination-fraction {
-    top: 125%;
-    @media (max-width: 769px) {
-      display: none;
-    }
+    top: 92%;
   }
 `;
 export const ClientCard = styled.div`
   display: flex;
   width: 600px;
   height: 40vh;
+  margin: 0 auto;
   background: ${COLORS.white_dark};
   border: 5px solid ${COLORS.white_100};
   border-radius: 13px;
@@ -117,15 +120,17 @@ export const ClientCard = styled.div`
     }
   }
   @media (max-width: 769px) {
-    width: 100%;
+    width: 80%;
   }
 `;
 
 export const ClientDescription = styled.div`
   width: 50%;
   display: flex;
+  padding: 10px;
   color: ${COLORS.black_light};
   flex-direction: column;
+  font-size: 0.9rem;
   justify-content: space-between;
   .name-stars {
     width: 100%;
@@ -133,11 +138,9 @@ export const ClientDescription = styled.div`
     justify-content: space-between;
   }
   h4 {
-    font-size: 0.8rem;
     color: ${COLORS.black};
   }
   p {
-    font-size: 0.8rem;
     width: 100%;
   }
   img {
@@ -146,6 +149,7 @@ export const ClientDescription = styled.div`
   }
   @media (max-width: 769px) {
     width: 100%;
+    font-size: 0.8rem;
     padding: 10px;
   }
 `;

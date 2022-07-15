@@ -16,7 +16,7 @@ import ArrowLeft from "./icons/arrowleft.svg";
 import ArrowRight from "./icons/arrowright.svg";
 import JeredyClient from "./images/jeredyclient.png";
 import JorgeClient from "./images/jorgeclient.jpeg";
-import SebastiaoClient from "./images/sebastiaoclient.png";
+import RafaelaClient from "./images/rafaela.jpeg";
 
 export const images = {
   logo: Logo,
@@ -24,7 +24,7 @@ export const images = {
   crossfit: CrossfitBackground,
   Jeredy: JeredyClient,
   Jorge: JorgeClient,
-  Sebastiao: SebastiaoClient,
+  Rafaela: RafaelaClient,
 };
 export const icons = {
   facebook: Facebook,

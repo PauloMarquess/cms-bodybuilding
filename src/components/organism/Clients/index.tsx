@@ -18,6 +18,17 @@ import {
 SwiperCore.use([Navigation, Pagination]);
 
 export const Clients = () => {
+  const width = window.innerWidth;
+  let perView = 1.5;
+  if (width < 1055) {
+    perView = 1.2;
+  }
+  if (width < 900) {
+    perView = 1.1;
+  }
+  if (width < 769) {
+    perView = 1;
+  }
   return (
     <ContainerClients>
       <Background />
@@ -32,25 +43,19 @@ export const Clients = () => {
       </TextContainer>
       <SlideContainer>
         <Swiper
-          spaceBetween={100}
-          slidesPerView={1.5}
+          slidesPerView={perView}
           navigation
           pagination={{ clickable: true }}
         >
           {ClientsMocks.map((i) => (
-            <SwiperSlide>
+            <SwiperSlide slot="wrapper-end">
               <ClientCard>
                 <div className="border-clip">
                   <img src={i.img} alt="img" />
                 </div>
                 <ClientDescription>
                   <img src={icons.aspa} />
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Placeat id alias ea rem reprehenderit ad rerum at aliquid
-                    debitis delectus? Doloremque at quod quibusdam temporibus
-                    ullam earum quae, expedita vitae.
-                  </p>
+                  <p>{i.description}</p>
                   <div className="name-stars">
                     <h4>{i.name}</h4>
                     <div>{StarMaped}</div>
@@ -64,3 +69,12 @@ export const Clients = () => {
     </ContainerClients>
   );
 };
+function handleIsMob(): number | "auto" | undefined {
+  throw new Error("Function not implemented.");
+}
+function ofi(): any {
+  throw new Error("Function not implemented.");
+}
+function largura(): any {
+  throw new Error("Function not implemented.");
+}
