@@ -1,6 +1,7 @@
 import { icons } from "../../../assets";
 import { navigation } from "../../../__mocks__";
-import { ButtonClose, ModalCard } from "./style";
+import ChangeLanguage from "../../atoms/ChangeLanguage";
+import { ButtonClose, Header, ModalCard } from "./style";
 
 const ModalMenu = ({ setModalVisible, modalVisible }: any) => {
   const exitModal = () => {
@@ -8,9 +9,10 @@ const ModalMenu = ({ setModalVisible, modalVisible }: any) => {
   };
   return (
     <ModalCard>
-      <ButtonClose onClick={exitModal}>
-        <img src={icons.close} alt="imagem de X" />
-      </ButtonClose>
+      <Header onClick={exitModal}>
+        <ChangeLanguage />
+        <ButtonClose src={icons.close} alt="imagem de X" />
+      </Header>
       <nav onClick={exitModal}>
         {navigation.map((nav) => (
           <a key={nav.name} href={nav.link}>

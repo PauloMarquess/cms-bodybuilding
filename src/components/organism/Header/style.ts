@@ -35,3 +35,9 @@ export const CardLogo = styled.a`
     }
   }
 `;
+
+export const InvisibleMobile = styled.div`
+  @media (max-width: 769px) {
+    display: none;
+  }
+`;

@@ -5,11 +5,13 @@ export const CardMobile = styled.div`
   width: 100%;
   @media (max-width: 769px) {
     display: flex;
-    img {
-      width: 50px;
-      position: fixed;
-      right: 0;
-      top: 14px;
-    }
+  }
+`;
+export const IconCard = styled.img`
+  @media (max-width: 769px) {
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 14px;
   }
 `;

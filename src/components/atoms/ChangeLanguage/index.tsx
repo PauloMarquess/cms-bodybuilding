@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Select from "react-select";
 import { images } from "../../../assets";
-import { CardSelect } from "./style";
+import { CardSelect, ContainerSelect } from "./style";
 
 const countries = [
   { value: "pt-BR", label: "Brasil", icon: images.brasil },
@@ -10,7 +10,7 @@ const countries = [
 
 const ChangeLanguage = () => {
   const I18N_STORAGE_KEY = "i18nextLng";
-  const [selectedCountry, setSelectedCountry] = useState(countries[0]);
+  const [selectedCountry, setSelectedCountry] = useState<any>(countries[0]);
 
   useEffect(() => {
     const data = localStorage.getItem("index");
@@ -18,22 +18,20 @@ const ChangeLanguage = () => {
     setSelectedCountry(countries[obj]);
   }, []);
 
-  const handleChange = (value) => {
+  const handleChange = (value: any) => {
     const index = value.value === "pt-BR" ? 0 : 1;
     setSelectedCountry(index);
-
-    localStorage.setItem("index", index);
-
+    localStorage.setItem("index", index.toString());
     localStorage.setItem(I18N_STORAGE_KEY, value.value);
     location.reload();
   };
-
   return (
-    <>
+    <ContainerSelect>
       <Select
         value={selectedCountry}
         options={countries}
         onChange={handleChange}
+        backspaceRemovesValue
         formatOptionLabel={(country) => (
           <CardSelect>
             <img src={country.icon} alt="country-image" />
@@ -41,7 +39,7 @@ const ChangeLanguage = () => {
           </CardSelect>
         )}
       />
-    </>
+    </ContainerSelect>
   );
 };
 

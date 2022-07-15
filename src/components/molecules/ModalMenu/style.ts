@@ -40,11 +40,16 @@ export const ModalCard = styled.div`
     }
   }
 `;
-export const ButtonClose = styled.div`
-  @media (max-width: 769px) {
-    img {
-      width: 20px !important;
-      margin: 0 10px 20px 0;
-    }
-  }
+export const Header = styled.div`
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 15px 0 0;
+  position: relative;
+
+  top: 10px;
+`;
+export const ButtonClose = styled.img`
+  width: 20px;
 `;

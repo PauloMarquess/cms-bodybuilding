@@ -3,7 +3,7 @@ import Logo from "../../atoms/Logo";
 import SocialMedia from "../../atoms/SocialMedia";
 import NavigationDesktop from "../../molecules/NavigationDesktop";
 import NavigationMobile from "../../molecules/NavigationMobile";
-import { CardHeader, CardLogo } from "./style";
+import { CardHeader, CardLogo, InvisibleMobile } from "./style";
 
 const Header = () => {
   return (
@@ -15,7 +15,9 @@ const Header = () => {
       <NavigationMobile />
       <NavigationDesktop />
       <SocialMedia />
-      <ChangeLanguage />
+      <InvisibleMobile>
+        <ChangeLanguage />
+      </InvisibleMobile>
     </CardHeader>
   );
 };
