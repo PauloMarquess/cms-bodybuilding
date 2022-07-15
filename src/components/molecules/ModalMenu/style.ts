@@ -47,7 +47,6 @@ export const Header = styled.div`
   justify-content: space-between;
   padding: 0 15px 0 0;
   position: relative;
-
   top: 10px;
 `;
 export const ButtonClose = styled.img`
