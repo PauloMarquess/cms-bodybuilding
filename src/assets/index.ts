@@ -12,19 +12,20 @@ import Close from "../assets/icons/close.svg";
 import Verify from "../assets/icons/verify.svg";
 import Aspa from "./icons/aspa.svg";
 import Star from "./icons/star.svg";
+import Background from "./icons/background.svg";
 import ArrowLeft from "./icons/arrowleft.svg";
 import ArrowRight from "./icons/arrowright.svg";
-import JeredyClient from "./images/jeredyclient.png";
-import JorgeClient from "./images/jorgeclient.jpeg";
-import RafaelaClient from "./images/rafaela.jpeg";
+import Mateus from "./images/matheus.jpg";
+import Rafela from "./images/rafaela.jpeg";
+import Paulo from "./images/paulo.jpg";
 
 export const images = {
   logo: Logo,
   presentation: Presentation,
   crossfit: CrossfitBackground,
-  Jeredy: JeredyClient,
-  Jorge: JorgeClient,
-  Rafaela: RafaelaClient,
+  mateus: Mateus,
+  paulo: Paulo,
+  rafaela: Rafela,
 };
 export const icons = {
   facebook: Facebook,
@@ -40,4 +41,5 @@ export const icons = {
   Star: Star,
   ArrowLeft: ArrowLeft,
   ArrowRight: ArrowRight,
+  background: Background,
 };

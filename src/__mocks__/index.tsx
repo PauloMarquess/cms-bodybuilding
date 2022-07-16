@@ -13,20 +13,20 @@ export const StarMaped = [1, 2, 3, 4, 5].map(() => (
 
 export const ClientsMocks = [
   {
-    name: "Rodrigo",
-    img: images.Jorge,
+    name: "Paulo",
+    img: images.paulo,
     description:
       " Para mim, o atendimento personalizado cria comprometimento por parte do aluno, com dia e horário previamente agendados com o professor. Além disso, os treinos são montados, modificados e acompanhados para atender a necessidades específicas, Minhas aulas são satisfatórias",
   },
   {
-    name: "Paulo",
-    img: images.Jeredy,
+    name: "Rafaela",
+    img: images.rafaela,
     description:
-      "sempre me considerei apto a fazer academia sem auxílio de qualquer orientador, porém que não havia os resultados esperados, o que me levava a constatar que tudo estava errado. Foi quando minha namorada me aconselhou a contratar um personal, hoje estou muito satisfeito,o resultado é fantástico",
+      "Sempre me considerei apto a fazer academia sem auxílio de qualquer orientador, porém que não havia os resultados esperados, o que me levava a constatar que tudo estava errado. Foi quando minha namorada me aconselhou a contratar um personal, hoje estou muito satisfeito,o resultado é fantástico",
   },
   {
-    name: "Rafaela",
-    img: images.Rafaela,
+    name: "Matheus",
+    img: images.mateus,
     description:
       "O motivo que me leva a fazer musculação é o fato de fazer muito bem para a minha saúde. Procurei o profissional porque o atendimento individual é necessário para as minhas necessidades. Para mim fazer exercícios é muito importante e aumenta minha disposição para as atividades do dia a dia.",
   },
