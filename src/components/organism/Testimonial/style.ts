@@ -10,6 +10,20 @@ export const SectionTestimonial = styled.section`
   height: 70vh;
   background: ${COLORS.white_default};
   position: relative;
+
+  @media (max-width: 769px) {
+    height: auto;
+    padding: 50px 5px;
+    width: 100%;
+  }
+`;
+export const Background = styled.div`
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: calc(50% - 250px);
+  right: 80%;
+  transform: rotate(45deg);
 `;
 
 export const CardTestimonial = styled.div`
@@ -19,7 +33,6 @@ export const CardTestimonial = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
   color: ${COLORS.black};
   span {
     color: ${COLORS.primary};
@@ -40,11 +53,10 @@ export const SlideContainer = styled.div`
     width: 100px;
     height: 100px;
     z-index: 1;
-    @media (max-width: 1115px) {
-      margin: 0 39%;
-    }
+
     @media (max-width: 860px) {
-      margin: 0 35%;
+      margin: 0 15%;
+      top: 88%;
     }
   }
   .swiper-button-next {
@@ -79,11 +91,11 @@ export const CardStudent = styled.div`
   gap: 20px;
 
   @media (max-width: 769px) {
-    display: none;
-  }
-
-  @media (max-width: 769px) {
-    width: 80%;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    gap: 0;
   }
 `;
 
@@ -117,13 +129,4 @@ export const StudentAssessment = styled.div`
   img {
     width: 13px;
   }
-`;
-
-export const Background = styled.div`
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  top: calc(50% - 250px);
-  right: 80%;
-  transform: rotate(45deg);
 `;

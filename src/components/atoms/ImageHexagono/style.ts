@@ -47,4 +47,9 @@ export const ImageHexagono = styled.img`
     77.82089% 15.49361%,
     79.82051% 18.34936%
   );
+  @media (max-width: 769px) {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+  }
 `;
