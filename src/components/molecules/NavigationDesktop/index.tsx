@@ -1,12 +1,15 @@
 import { socialMedia, navigation } from "../../../__mocks__";
 import { Media, Navigation } from "./style";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const NavigationDesktop = () => {
   return (
     <Navigation>
       {navigation.map((item) => (
         <li key={item.name}>
-          <a href={item.link}>{item.name}</a>
+          <AnchorLink offset={item.desktop} href={item.link}>
+            {item.name}
+          </AnchorLink>
         </li>
       ))}
       <p>|</p>

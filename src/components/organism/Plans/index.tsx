@@ -27,7 +27,8 @@ const Plans = () => {
             )}
             <h3>{plan.legend}</h3>
             <p>
-              <Cifrao>$</Cifrao> <Price>{plan.price} </Price> /{plan.month}
+              <Cifrao> {i18n.t("plans.coin")}</Cifrao>{" "}
+              <Price>{plan.price} </Price> /{plan.month}
             </p>
             <Divider />
 

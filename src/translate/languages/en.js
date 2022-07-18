@@ -34,6 +34,7 @@ export const messages = {
         titleSpan: "CMSK",
         benefitsPlans: "Plan benefits",
         button: "Start Plan",
+        coin: "$",
         basic: {
           legend: "Basic Plan",
           price: "30",

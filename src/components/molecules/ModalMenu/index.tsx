@@ -2,6 +2,7 @@ import { icons } from "../../../assets";
 import { navigation } from "../../../__mocks__";
 import { ChangeLanguage } from "../../../components";
 import { ButtonClose, Header, ModalCard } from "./style";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const ModalMenu = ({ setModalVisible, modalVisible }: any) => {
   const exitModal = () => {
@@ -15,9 +16,9 @@ const ModalMenu = ({ setModalVisible, modalVisible }: any) => {
       </Header>
       <nav onClick={exitModal}>
         {navigation.map((nav) => (
-          <a key={nav.name} href={nav.link}>
+          <AnchorLink offset={nav.mobile} key={nav.name} href={nav.link}>
             {nav.name}
-          </a>
+          </AnchorLink>
         ))}
       </nav>
     </ModalCard>

@@ -2,11 +2,31 @@ import { icons } from "../assets";
 import { i18n } from "../translate/i18n.js";
 
 export const navigation = [
-  { name: `${i18n.t("navigation.home")}`, link: "#home" },
-  { name: `${i18n.t("navigation.mission")}`, link: "#mission" },
-  { name: `${i18n.t("navigation.service")}`, link: "#service" },
-  { name: `${i18n.t("navigation.plans")}`, link: "#plans" },
-  { name: `${i18n.t("navigation.contact")}`, link: "#contact" },
+  {
+    name: `${i18n.t("navigation.home")}`,
+    link: "#home",
+  },
+  {
+    name: `${i18n.t("navigation.mission")}`,
+    link: "#mission",
+    desktop: 100,
+    mobile: 100,
+  },
+  {
+    name: `${i18n.t("navigation.service")}`,
+    link: "#service",
+    desktop: 100,
+  },
+  {
+    name: `${i18n.t("navigation.plans")}`,
+    link: "#plans",
+    desktop: 90,
+  },
+  {
+    name: `${i18n.t("navigation.contact")}`,
+    link: "#contact",
+    mobile: 100,
+  },
 ];
 
 export const objective = [
