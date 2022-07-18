@@ -1,5 +1,6 @@
 import { icons } from "../assets";
 import { i18n } from "../translate/i18n.js";
+import { images } from "../assets";
 
 export const navigation = [
   {
@@ -18,7 +19,7 @@ export const navigation = [
     desktop: 100,
   },
   {
-    name: `${i18n.t("navigation.plans")}`,
+    name: `${i18n.t("navigation.plan")}`,
     link: "#plans",
     desktop: 90,
     mobile: 100,
@@ -92,7 +93,6 @@ export const plans = [
     ],
   },
 ];
-import { images } from "../assets";
 
 export const socialMedia = [
   { name: "facebook", icons: icons.facebook, link: "#" },

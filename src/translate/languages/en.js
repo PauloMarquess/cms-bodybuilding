@@ -1,7 +1,6 @@
 export const messages = {
   en: {
     translations: {
-      teste: "hi",
       navigation: {
         home: "Home",
         mission: "Mission",
