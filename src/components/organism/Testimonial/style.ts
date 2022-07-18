@@ -126,6 +126,11 @@ export const StudentAssessment = styled.div`
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+  h4 {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-weight: bolder;
+    font-size: 18px;
+  }
   img {
     width: 13px;
   }

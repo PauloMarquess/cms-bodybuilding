@@ -25,9 +25,7 @@ const Testimonial = () => {
   if (width < 1055) {
     perView = 1.2;
   }
-  if (width < 900) {
-    perView = 1.1;
-  }
+
   if (width < 769) {
     perView = 1;
   }
