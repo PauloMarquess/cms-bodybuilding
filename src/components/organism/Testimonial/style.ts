@@ -56,7 +56,7 @@ export const SlideContainer = styled.div`
 
     @media (max-width: 860px) {
       margin: 0 15%;
-      top: 88%;
+      top: 87%;
     }
   }
   .swiper-button-next {
