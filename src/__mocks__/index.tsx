@@ -71,6 +71,7 @@ export const plans = [
     ],
   },
 ];
+import { images } from "../assets";
 
 export const socialMedia = [
   { name: "facebook", icons: icons.facebook, link: "#" },
@@ -121,5 +122,26 @@ export const openingHours = [
   {
     day: `${i18n.t("footer.openingHours.week.seven")}`,
     hour: "07:00-17:00",
+  },
+];
+export const StarMaped = [1, 2, 3, 4, 5].map(() => (
+  <img src={icons.Star} alt="star" />
+));
+
+export const ClientsMocks = [
+  {
+    name: "Paulo",
+    img: images.paulo,
+    description: `${i18n.t("testimonial.students.first.message")}`,
+  },
+  {
+    name: "Rafaela",
+    img: images.rafaela,
+    description: `${i18n.t("testimonial.students.second.message")}`,
+  },
+  {
+    name: "Matheus",
+    img: images.mateus,
+    description: `${i18n.t("testimonial.students.third.message")}`,
   },
 ];

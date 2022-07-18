@@ -13,3 +13,4 @@ export { default as Mission } from "./organism/Mission";
 export { default as Plans } from "./organism/Plans";
 export { default as Footer } from "./organism/Footer";
 export { default as Presentation } from "./organism/Presentation";
+export { default as Testimonial } from "./organism/Testimonial";

@@ -82,6 +82,26 @@ export const messages = {
           },
         },
       },
+      testimonial: {
+        legend: "Meet some",
+        span: "testimony ",
+        legendRest: "of our students",
+        students: {
+          first: {
+            message:
+              "The reason that leads me to do weight training is the fact that it is very good for my health. I looked for the professional because individual care is necessary for my needs. For me, exercising is very important and increases my disposition for day-to-day activities.",
+          },
+          second: {
+            message:
+              "I always considered myself able to go to the gym without the help of any advisor, but that there were not the expected results, which led me to see that everything was wrong. That's when my girlfriend advised me to hire a personal, today I'm very satisfied, the result is fantastic",
+          },
+          third: {
+            message:
+              "For me, personalized service creates commitment on the part of the student, with a day and time previously scheduled with the teacher. In addition, the workouts are assembled, modified and monitored to meet specific needs, My classes are satisfactory",
+          },
+        },
+      },
+
       footer: {
         openingHours: {
           title: "Opening hours",

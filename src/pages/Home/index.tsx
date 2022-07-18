@@ -1,4 +1,11 @@
-import { Footer, Presentation, Plans, Mission, Header } from "../../components";
+import {
+  Header,
+  Mission,
+  Plans,
+  Presentation,
+  Footer,
+  Testimonial,
+} from "../../components";
 
 const Home = () => {
   return (
@@ -7,6 +14,7 @@ const Home = () => {
       <Presentation />
       <Mission />
       <Plans />
+      <Testimonial />
       <Footer />
     </>
   );

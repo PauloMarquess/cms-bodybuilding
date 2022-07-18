@@ -13,7 +13,15 @@ import Twiter from "../assets/icons/twiter.svg";
 import Menu from "../assets/icons/menu.svg";
 import Close from "../assets/icons/close.svg";
 import Verify from "../assets/icons/verify.svg";
-import ArrowRight from "../assets/icons/arrow-right.svg";
+import Arrow from "../assets/icons/arrow-right.svg";
+import Aspa from "./icons/aspa.svg";
+import Star from "./icons/star.svg";
+import Background from "./icons/background.svg";
+import ArrowLeft from "./icons/arrowleft.svg";
+import ArrowRight from "./icons/arrowright.svg";
+import Mateus from "./images/matheus.jpg";
+import Rafela from "./images/rafaela.jpeg";
+import Paulo from "./images/paulo.jpg";
 
 export const images = {
   logo: Logo,
@@ -22,6 +30,9 @@ export const images = {
   crown: Crown,
   brasil: Brasil,
   england: England,
+  mateus: Mateus,
+  paulo: Paulo,
+  rafaela: Rafela,
 };
 export const icons = {
   facebook: Facebook,
@@ -33,5 +44,10 @@ export const icons = {
   verify: Verify,
   email: EmailIcons,
   telephone: TelephoneIcons,
-  arrow: ArrowRight,
+  arrow: Arrow,
+  aspa: Aspa,
+  Star: Star,
+  arrowLeft: ArrowLeft,
+  arrowRight: ArrowRight,
+  background: Background,
 };
