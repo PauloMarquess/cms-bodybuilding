@@ -5,7 +5,7 @@ export const messages = {
         home: "Inicio",
         mission: "Missão",
         service: "Serviços",
-        plans: "Planos",
+        plan: "Planos",
         contact: "Contato",
       },
       presentation: {
