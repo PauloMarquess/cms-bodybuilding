@@ -38,6 +38,13 @@ export const objective = [
   { name: `${i18n.t("mission.objective.four")}` },
 ];
 
+export const services = [
+  { name: "Aulas de boxe", image: images.imgOne },
+  { name: " Aulas de Zumba", image: images.imgTwo },
+  { name: "Aulas de Hipertrofia", image: images.imgThird },
+  { name: "Aulas de Crossfit", image: images.imgFour },
+];
+
 export const plans = [
   {
     legend: `${i18n.t("plans.basic.legend")}`,

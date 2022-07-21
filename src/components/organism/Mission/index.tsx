@@ -6,7 +6,7 @@ import { objective } from "../../../__mocks__";
 
 const Mission = () => {
   return (
-    <Container height="550px" responsive id="mission">
+    <Container responsive id="mission">
       <CardMission>
         <h1>
           {i18n.t("mission.title")} <span> {i18n.t("mission.titleSpan")}</span>

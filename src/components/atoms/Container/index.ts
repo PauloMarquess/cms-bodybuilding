@@ -1,3 +1,4 @@
+import { images } from "./../../../assets/index";
 import styled from "styled-components";
 import { COLORS } from "../../../common";
 
@@ -11,6 +12,7 @@ interface ContainerProps {
   height?: string;
   width?: string;
   backgroundColor?: boolean;
+  backgroundParallax?: boolean;
 }
 export const Container = styled.section<ContainerProps>`
   display: flex;
@@ -22,6 +24,10 @@ export const Container = styled.section<ContainerProps>`
   height: ${(props) => (props.height ? props.height : "100vh")};
   background-color: ${({ backgroundColor }) =>
     backgroundColor && `${COLORS.black_light}`};
+  background-image: ${({ backgroundParallax }) =>
+    backgroundParallax && `url(${images.parallax})`};
+  background-attachment: ${({ backgroundParallax }) =>
+    backgroundParallax && `fixed`};
 
   @media (max-width: 769px) {
     flex-direction: ${({ responsive }) => (responsive ? "column" : "row")};
