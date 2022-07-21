@@ -14,7 +14,7 @@ export const navigation = [
     mobile: 100,
   },
   {
-    name: `${i18n.t("navigation.service")}`,
+    name: `${i18n.t("navigation.team")}`,
     link: "#service",
     desktop: 100,
   },

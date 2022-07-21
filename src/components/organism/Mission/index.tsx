@@ -14,7 +14,12 @@ const Mission = () => {
         <h3>
           <span> | </span> {i18n.t("mission.subtitle")}
         </h3>
-        <p>{i18n.t("mission.description")}</p>
+        <p>
+          {i18n.t("mission.description")}
+          {i18n.t("mission.descriptionRestInit")}
+          <strong>{i18n.t("mission.descriptionSpan")}</strong>
+          {i18n.t("mission.descriptionRest")}
+        </p>
         <ListObjtive>
           {objective.map((obj) => (
             <li key={obj.name}>

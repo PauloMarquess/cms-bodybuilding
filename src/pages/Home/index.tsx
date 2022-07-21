@@ -5,6 +5,7 @@ import {
   Presentation,
   Footer,
   Testimonial,
+  Team,
 } from "../../components";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Header />
       <Presentation />
       <Mission />
+      <Team />
       <Plans />
       <Testimonial />
       <Footer />

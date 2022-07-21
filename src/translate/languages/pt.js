@@ -4,7 +4,7 @@ export const messages = {
       navigation: {
         home: "Inicio",
         mission: "Missão",
-        service: "Serviços",
+        team: "Time",
         plan: "Planos",
         contact: "Contato",
       },
@@ -16,11 +16,15 @@ export const messages = {
         button: "Comece Agora",
       },
       mission: {
-        title: "CONSTRUÇÃO DE ",
-        titleSpan: "MÚSCULOS",
-        subtitle: "Sem tempo para treinar ? Conheça nosso modelo de treino",
+        title: "MODELAGEM DO  ",
+        titleSpan: "FÍSICO",
+        subtitle: "MISSÃO CMSK BODYBUILDING FITNESS",
         description:
-          "Mais de 400 pessoas já atingiram seus objetivos seja no ganho de massa, emagrecimento ou definição sem passar anos para ver mudança. Parece mágica, mas é apenas o direcionamento personalizado, que te leva do seu físico atual até sua meta, no menor tempo possível.",
+          "Usar o conhecimento do bodybuilding para transformação dos físicos, pautado em estratégias e planejamentos completos, uma arte em esculpir corpos, de acordo com os objetivos de cada um, desde de emagrecimento, tônus, ganho de massa muscular, modelagem etc. ",
+        descriptionSpan: "CMSK BODYBUILDING FITNESS",
+        descriptionRestInit: "A ",
+        descriptionRest:
+          " tem a solução, um suporte completo para um desenvolvimento estético e com saúde.",
         objective: {
           one: "Perder Peso",
           two: "Hipertrofia Muscular",

@@ -4,7 +4,7 @@ export const messages = {
       navigation: {
         home: "Home",
         mission: "Mission",
-        service: "Service",
+        team: "Team",
         plan: "Plan",
         contact: "Contact",
       },
@@ -16,11 +16,15 @@ export const messages = {
         button: "Start now",
       },
       mission: {
-        title: "BUILDING ",
-        titleSpan: "MUSCLES",
+        title: "PHYSICAL   ",
+        titleSpan: "MODELING",
         subtitle: "No time to train? Discover our training model",
         description:
-          "More than 400 people have already reached their goals, whether in mass gain, weight loss or definition without spending years to see change. It sounds like magic, but it's just personalized targeting, which takes you from your current physique to your goal in the shortest possible time.",
+          "Using bodybuilding knowledge to transform physiques, based on complete strategies and planning, an art in sculpting bodies, according to each one's goals, from slimming, toning, muscle mass gain, modeling etc.",
+        descriptionSpan: "CMSK BODYBUILDING FITNESS",
+        descriptionRestInit: "",
+        descriptionRest:
+          " has the solution, a complete support for an aesthetic and healthy development.",
         objective: {
           one: "Lose weight",
           two: "Muscular hypertrophy",

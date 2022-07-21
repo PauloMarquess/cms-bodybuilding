@@ -16,7 +16,7 @@ import {
   CardTestimonial,
   Background,
 } from "./style";
-import { ImageHexagono } from "../../atoms/ImageHexagono/style";
+import { ImageHexagono } from "../../atoms/ImageHexagono";
 
 SwiperCore.use([Navigation, Pagination]);
 

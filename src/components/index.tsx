@@ -1,5 +1,5 @@
-export { Container } from "./atoms/Container/style";
-
+export { Container } from "./atoms/Container";
+export { ImageHexagono } from "./atoms/ImageHexagono";
 export { default as Logo } from "./atoms/Logo";
 export { default as ChangeLanguage } from "./atoms/ChangeLanguage";
 export { default as SocialMedia } from "./atoms/SocialMedia";
@@ -14,3 +14,4 @@ export { default as Plans } from "./organism/Plans";
 export { default as Footer } from "./organism/Footer";
 export { default as Presentation } from "./organism/Presentation";
 export { default as Testimonial } from "./organism/Testimonial";
+export { default as Team } from "./organism/Team";
