@@ -4,7 +4,7 @@ export const messages = {
       navigation: {
         home: "Home",
         mission: "Mission",
-        team: "Team",
+        service: "Service",
         plan: "Plan",
         contact: "Contact",
       },
