@@ -8,7 +8,7 @@ export const CardWhatsapp = styled.a`
   width: 140px;
   z-index: 5;
   @media (max-width: 769px) {
-    bottom: 3%;
+    bottom: 0;
     right: -3%;
     width: 100px;
   }
