@@ -17,6 +17,7 @@ export const navigation = [
     name: `${i18n.t("navigation.team")}`,
     link: "#team",
     desktop: 100,
+    mobile: 100,
   },
   {
     name: `${i18n.t("navigation.plan")}`,
