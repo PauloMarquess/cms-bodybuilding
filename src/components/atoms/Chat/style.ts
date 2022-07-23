@@ -8,8 +8,8 @@ export const CardWhatsapp = styled.a`
   width: 140px;
   z-index: 5;
   @media (max-width: 769px) {
-    bottom: 10%;
-    right: -4%;
+    bottom: 3%;
+    right: -3%;
     width: 100px;
   }
 `;
