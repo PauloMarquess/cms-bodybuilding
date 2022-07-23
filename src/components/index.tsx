@@ -2,6 +2,7 @@ export { Container } from "./atoms/Container";
 export { ImageHexagono } from "./atoms/ImageHexagono";
 export { default as Logo } from "./atoms/Logo";
 export { default as ChangeLanguage } from "./atoms/ChangeLanguage";
+export { default as Chat } from "./atoms/Chat";
 export { default as SocialMedia } from "./atoms/SocialMedia";
 export { default as ModalMenu } from "./molecules/ModalMenu";
 export { default as EachHour } from "./molecules/EachHour";

@@ -6,6 +6,7 @@ import {
   Footer,
   Testimonial,
   Team,
+  Chat,
 } from "../../components";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Plans />
       <Testimonial />
       <Footer />
+      <Chat />
     </>
   );
 };
