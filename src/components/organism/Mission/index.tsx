@@ -30,7 +30,7 @@ const Mission = () => {
         </ListObjtive>
       </CardMission>
       <ImageMission>
-        <img src={images.crossfit} alt="foto Charles Mario" />
+        <img src={images.mission} alt="foto Charles Mario" />
       </ImageMission>
     </Container>
   );

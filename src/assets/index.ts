@@ -2,7 +2,7 @@ import Brasil from "../assets/images/brasil.png";
 import England from "../assets/images/england.png";
 import Presentation from "../assets/images/presentatio.jpeg";
 import Logo from "../assets/images/logo.png";
-import CrossfitBackground from "../assets/images/crossfit3.png";
+import MissionBackground from "../assets/images/mission.png";
 import Crown from "../assets/images/crown.png";
 import EmailIcons from "./icons/email.svg";
 import TelephoneIcons from "./icons/telephone.svg";
@@ -29,7 +29,7 @@ export const images = {
   logo: Logo,
   parallax: Parallax,
   presentation: Presentation,
-  crossfit: CrossfitBackground,
+  mission: MissionBackground,
   crown: Crown,
   brasil: Brasil,
   england: England,

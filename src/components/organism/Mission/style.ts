@@ -36,13 +36,13 @@ export const CardMission = styled.div`
 
 export const ImageMission = styled.div`
   img {
-    width: 500px;
+    width: 400px;
     border-radius: 14px;
   }
   @media (max-width: 769px) {
     img {
       position: relative;
-      width: 250px;
+      width: 300px;
       bottom: 30px;
     }
   }
