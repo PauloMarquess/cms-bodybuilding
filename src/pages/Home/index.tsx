@@ -5,7 +5,7 @@ import {
   Presentation,
   Footer,
   Testimonial,
-  Service,
+  Team,
 } from "../../components";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
       <Presentation />
       <Mission />
-      <Service />
+      <Team />
       <Plans />
       <Testimonial />
       <Footer />

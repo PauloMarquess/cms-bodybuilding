@@ -4,7 +4,7 @@ export const messages = {
       navigation: {
         home: "Home",
         mission: "Mission",
-        service: "Service",
+        team: "Team",
         plan: "Plan",
         contact: "Contact",
       },
@@ -30,6 +30,23 @@ export const messages = {
           two: "Muscular hypertrophy",
           three: "Increase fitness",
           four: "I gain lean mass",
+        },
+      },
+      team: {
+        title: "Our team",
+        teacher: {
+          one: {
+            functionTeacher: "BODYBUILDER TRAINER",
+          },
+          two: {
+            functionTeacher: "BODYBUILDER TRAINER",
+          },
+          third: {
+            functionTeacher: "BODYBUILDER TRAINER",
+          },
+          four: {
+            functionTeacher: "BODYBUILDER TRAINER",
+          },
         },
       },
       plans: {

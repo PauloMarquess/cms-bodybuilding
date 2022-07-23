@@ -4,7 +4,7 @@ export const messages = {
       navigation: {
         home: "Inicio",
         mission: "Missão",
-        service: "Serviços",
+        team: "Time",
         plan: "Planos",
         contact: "Contato",
       },
@@ -14,6 +14,23 @@ export const messages = {
         description:
           "Nossa equipe qualificada de instrutores ajuda nossos clientes a desenvolver seus corpos e mentes, alcançar os melhores resultados e aproveitar os verdadeiros desafios de condicionamento físico enquanto estamos motivados positivamente. Resultados que você e seu corpo merecem.",
         button: "Comece Agora",
+      },
+      team: {
+        title: "Nosso Time",
+        teacher: {
+          one: {
+            functionTeacher: "Treinador Fisiculturismo",
+          },
+          two: {
+            functionTeacher: "Treinador Fisiculturismo",
+          },
+          third: {
+            functionTeacher: "Treinador Fisiculturismo",
+          },
+          four: {
+            functionTeacher: "Treinador Fisiculturismo",
+          },
+        },
       },
       mission: {
         title: "MODELAGEM DO  ",

@@ -14,8 +14,8 @@ export const navigation = [
     mobile: 100,
   },
   {
-    name: `${i18n.t("navigation.service")}`,
-    link: "#service",
+    name: `${i18n.t("navigation.team")}`,
+    link: "#team",
     desktop: 100,
   },
   {
@@ -38,11 +38,27 @@ export const objective = [
   { name: `${i18n.t("mission.objective.four")}` },
 ];
 
-export const services = [
-  { name: "Aulas de boxe", image: images.imgOne },
-  { name: " Aulas de Zumba", image: images.imgTwo },
-  { name: "Aulas de Hipertrofia", image: images.imgThird },
-  { name: "Aulas de Crossfit", image: images.imgFour },
+export const team = [
+  {
+    name: "Michelle Oliveira",
+    functionTeacher: `${i18n.t("team.teacher.one.functionTeacher")}`,
+    image: images.imgFour,
+  },
+  {
+    name: " Michelle Oliveira",
+    functionTeacher: `${i18n.t("team.teacher.two.functionTeacher")}`,
+    image: images.imgFour,
+  },
+  {
+    name: "Michelle Oliveira",
+    functionTeacher: `${i18n.t("team.teacher.third.functionTeacher")}`,
+    image: images.imgFour,
+  },
+  {
+    name: "Michelle Oliveira",
+    functionTeacher: `${i18n.t("team.teacher.four.functionTeacher")}`,
+    image: images.imgFour,
+  },
 ];
 
 export const plans = [
@@ -102,6 +118,13 @@ export const plans = [
 ];
 
 export const socialMedia = [
+  { name: "facebook", icons: icons.facebook, link: "#" },
+  { name: "instagram", icons: icons.instagram, link: "#" },
+  { name: "twiter", icons: icons.twiter, link: "#" },
+  { name: "youtube", icons: icons.youtube, link: "#" },
+];
+
+export const socialMediaTeachers = [
   { name: "facebook", icons: icons.facebook, link: "#" },
   { name: "instagram", icons: icons.instagram, link: "#" },
   { name: "twiter", icons: icons.twiter, link: "#" },

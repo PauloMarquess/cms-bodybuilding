@@ -23,9 +23,6 @@ import Mateus from "./images/matheus.jpg";
 import Rafela from "./images/rafaela.jpeg";
 import Paulo from "./images/paulo.jpg";
 import Parallax from "./images/parallax.jpg";
-import Img1 from "./images/service01.png";
-import Img2 from "./images/service02.png";
-import Img3 from "./images/service03.png";
 import Img4 from "./images/service04.png";
 
 export const images = {
@@ -39,9 +36,6 @@ export const images = {
   mateus: Mateus,
   paulo: Paulo,
   rafaela: Rafela,
-  imgOne: Img1,
-  imgTwo: Img2,
-  imgThird: Img3,
   imgFour: Img4,
 };
 export const icons = {
