@@ -121,15 +121,13 @@ export const plans = [
 export const socialMedia = [
   { name: "facebook", icons: icons.facebook, link: "#" },
   { name: "instagram", icons: icons.instagram, link: "#" },
-  { name: "twiter", icons: icons.twiter, link: "#" },
-  { name: "youtube", icons: icons.youtube, link: "#" },
+  { name: "zomm", icons: icons.zoom, link: "#" },
 ];
 
 export const socialMediaTeachers = [
   { name: "facebook", icons: icons.facebook, link: "#" },
   { name: "instagram", icons: icons.instagram, link: "#" },
-  { name: "twiter", icons: icons.twiter, link: "#" },
-  { name: "youtube", icons: icons.youtube, link: "#" },
+  { name: "zomm", icons: icons.zoom, link: "#" },
 ];
 
 export const contact = [
