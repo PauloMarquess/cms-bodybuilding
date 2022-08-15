@@ -59,6 +59,10 @@ export const Teacher = styled.div`
     position: relative;
     top: 20px;
   }
+  #aline {
+    position: relative;
+    right: 20px;
+  }
 
   h1 {
     text-transform: uppercase;

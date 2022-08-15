@@ -42,20 +42,20 @@ export const objective = [
 export const team = [
   {
     id: "charles",
-    name: "Charles Mário Soares",
+    name: "Charles Mário ",
     functionTeacher: `${i18n.t("team.teacher.one.functionTeacher")}`,
     image: images.charles,
   },
   {
     id: "harley",
-    name: "Harlley Soares da Silva ",
+    name: "Harlley Soares  ",
     functionTeacher: `${i18n.t("team.teacher.four.functionTeacher")}`,
     image: images.harley,
   },
 
   {
     id: "vinicius",
-    name: "Vinicius da Silva rocha",
+    name: "Vinicius da Silva ",
     functionTeacher: `${i18n.t("team.teacher.third.functionTeacher")}`,
     image: images.vinicius,
   },
@@ -67,14 +67,14 @@ export const team = [
   },
   {
     id: "janaina",
-    name: "Janaina de Souza Fonseca ",
+    name: "Janaina de Souza  ",
     functionTeacher: `${i18n.t("team.teacher.four.functionTeacher")}`,
     image: images.janaina,
   },
 
   {
     id: "aline",
-    name: "Aline Alvernaz Martins  ",
+    name: "Aline Alvernaz   ",
     functionTeacher: `${i18n.t("team.teacher.four.functionTeacher")}`,
     image: images.aline,
   },
