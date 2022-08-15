@@ -16,3 +16,4 @@ export { default as Footer } from "./organism/Footer";
 export { default as Presentation } from "./organism/Presentation";
 export { default as Testimonial } from "./organism/Testimonial";
 export { default as Team } from "./organism/Team";
+export { default as Modal } from "./molecules/Modal";

@@ -22,7 +22,12 @@ import Mateus from "./images/matheus.jpg";
 import Rafela from "./images/rafaela.jpeg";
 import Paulo from "./images/paulo.jpg";
 import Parallax from "./images/parallax.jpg";
-import Img4 from "./images/service04.png";
+import Aline from "./images/aline.png";
+import Charles from "./images/charles.png";
+import Monica from "./images/monica.png";
+import Janaina from "./images/janaina.png";
+import Vinicius from "./images/vinicius.png";
+import Harley from "./images/harley.png";
 
 export const images = {
   logo: Logo,
@@ -35,7 +40,12 @@ export const images = {
   mateus: Mateus,
   paulo: Paulo,
   rafaela: Rafela,
-  imgFour: Img4,
+  harley: Harley,
+  monica: Monica,
+  charles: Charles,
+  janaina: Janaina,
+  vinicius: Vinicius,
+  aline: Aline,
 };
 export const icons = {
   facebook: Facebook,

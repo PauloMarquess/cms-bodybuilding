@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { COLORS } from "../../../common";
+import { CardButton } from "../../atoms/ButtonLink/style";
 
 export const Legend = styled.div`
   display: flex;
@@ -20,9 +21,10 @@ export const Divider = styled.div`
 
 export const CardTeacher = styled.section`
   display: flex;
-  gap: 20px;
+  gap: 50px;
   justify-content: center;
   width: 100%;
+  flex-wrap: wrap;
   @media (max-width: 769px) {
     flex-direction: column;
     padding: 30px 0 60px 0;
@@ -34,7 +36,7 @@ export const Teacher = styled.div`
   gap: 20px;
   display: flex;
   flex-direction: column;
-  width: 22%;
+  width: 28%;
   flex-wrap: wrap;
   justify-content: flex-start;
   padding-top: 20px;
@@ -44,9 +46,18 @@ export const Teacher = styled.div`
   border-radius: 8px;
   cursor: pointer;
   position: relative;
+  height: 550px;
 
   img {
     width: 300px;
+  }
+  #charles {
+    position: relative;
+    top: 70px;
+  }
+  #harley {
+    position: relative;
+    top: 20px;
   }
 
   h1 {
@@ -72,6 +83,9 @@ export const Details = styled.div`
   bottom: 0;
   background-color: ${COLORS.primary};
   color: ${COLORS.black_medium};
+  h1 {
+    width: 100%;
+  }
   p {
     text-transform: uppercase;
     font-weight: 600;
@@ -91,4 +105,8 @@ export const CardLinks = styled.div`
       filter: brightness(0%);
     }
   }
+`;
+
+export const ButtonModal = styled(CardButton)`
+  width: 80%;
 `;

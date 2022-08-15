@@ -29,7 +29,7 @@ export const messages = {
           one: "Lose weight",
           two: "Muscular hypertrophy",
           three: "Increase fitness",
-          four: "I gain lean mass",
+          four: "Get lean mass",
         },
       },
       team: {
@@ -54,7 +54,7 @@ export const messages = {
         titleSpan: "CMSK",
         benefitsPlans: "Plan benefits",
         button: "Start Plan",
-        coin: "$",
+        coin: "£",
         basic: {
           legend: "Basic Plan",
           price: "30",

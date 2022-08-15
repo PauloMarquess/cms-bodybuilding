@@ -13,6 +13,8 @@ interface ContainerProps {
   width?: string;
   backgroundColor?: boolean;
   backgroundParallax?: boolean;
+  padding?: string;
+  margin?: string;
 }
 export const Container = styled.section<ContainerProps>`
   display: flex;
@@ -28,6 +30,8 @@ export const Container = styled.section<ContainerProps>`
     backgroundParallax && `url(${images.parallax})`};
   background-attachment: ${({ backgroundParallax }) =>
     backgroundParallax && `fixed`};
+  padding: ${(props) => (props.padding ? props.padding : "0")};
+  margin: ${(props) => (props.margin ? props.margin : "0")};
 
   @media (max-width: 769px) {
     flex-direction: ${({ responsive }) => (responsive ? "column" : "row")};

@@ -41,24 +41,42 @@ export const objective = [
 
 export const team = [
   {
-    name: "Michelle Oliveira",
+    id: "charles",
+    name: "Charles Mário Soares",
     functionTeacher: `${i18n.t("team.teacher.one.functionTeacher")}`,
-    image: images.imgFour,
+    image: images.charles,
   },
   {
-    name: " Michelle Oliveira",
-    functionTeacher: `${i18n.t("team.teacher.two.functionTeacher")}`,
-    image: images.imgFour,
-  },
-  {
-    name: "Michelle Oliveira",
-    functionTeacher: `${i18n.t("team.teacher.third.functionTeacher")}`,
-    image: images.imgFour,
-  },
-  {
-    name: "Michelle Oliveira",
+    id: "harley",
+    name: "Harlley Soares da Silva ",
     functionTeacher: `${i18n.t("team.teacher.four.functionTeacher")}`,
-    image: images.imgFour,
+    image: images.harley,
+  },
+
+  {
+    id: "vinicius",
+    name: "Vinicius da Silva rocha",
+    functionTeacher: `${i18n.t("team.teacher.third.functionTeacher")}`,
+    image: images.vinicius,
+  },
+  {
+    id: "monica",
+    name: " Monika Kimura ",
+    functionTeacher: `${i18n.t("team.teacher.two.functionTeacher")}`,
+    image: images.monica,
+  },
+  {
+    id: "janaina",
+    name: "Janaina de Souza Fonseca ",
+    functionTeacher: `${i18n.t("team.teacher.four.functionTeacher")}`,
+    image: images.janaina,
+  },
+
+  {
+    id: "aline",
+    name: "Aline Alvernaz Martins  ",
+    functionTeacher: `${i18n.t("team.teacher.four.functionTeacher")}`,
+    image: images.aline,
   },
 ];
 
