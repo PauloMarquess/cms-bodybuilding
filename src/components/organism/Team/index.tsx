@@ -40,13 +40,6 @@ const Team = () => {
             <Details>
               <h1>{item.name}</h1>
               <p>{item.functionTeacher}</p>
-              {/* <CardLinks>
-                {socialMediaTeachers.map((icon) => (
-                  <a key={icon.name}>
-                    <img src={icon.icons} alt="icone rede social" />
-                  </a>
-                ))}
-              </CardLinks> */}
 
               <ButtonModal
                 onClick={() => {
