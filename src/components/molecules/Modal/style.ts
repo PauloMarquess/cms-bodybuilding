@@ -6,6 +6,7 @@ import { Container } from "../../atoms/Container";
 export const ContainerModal = styled.div`
   position: fixed;
   top: 0;
+  left: 0;
   height: 100vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
@@ -20,9 +21,8 @@ export const CardModal = styled(Container)`
   top: 10%;
   padding: 40px 0 50px 0;
   @media (max-width: 769px) {
-    width: 90%;
+    width: 92%;
     padding: 30px;
-    right: 4%;
   }
 `;
 
