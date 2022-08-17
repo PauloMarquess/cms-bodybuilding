@@ -11,6 +11,7 @@ export const ModalCard = styled.div`
   z-index: 2;
   transition: 0.3s;
   animation: show 0.3s ease-in-out;
+  overflow: hidden !important;
 
   @keyframes show {
     from {

@@ -11,7 +11,7 @@ import {
 
 const Home = () => {
   return (
-    <div id="main">
+    <>
       <Header />
       <Presentation />
       <Mission />
@@ -20,7 +20,7 @@ const Home = () => {
       <Testimonial />
       <Footer />
       <Chat />
-    </div>
+    </>
   );
 };
 

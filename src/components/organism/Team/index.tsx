@@ -9,7 +9,7 @@ import {
   Details,
   ButtonModal,
 } from "./style";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Team = () => {
   const [modal, setModal] = useState(false);
@@ -18,6 +18,10 @@ const Team = () => {
     setModal(!modal);
     setDetails(item);
   };
+  const element: any = document.getElementById("main");
+  useEffect(() => {
+    !modal && (element.style.overflow = "visible");
+  }, [modal]);
   return (
     <Container
       responsive
@@ -33,7 +37,9 @@ const Team = () => {
         <Divider />
       </Legend>
       <CardTeacher>
-        {modal && <Modal handleModal={handleModal} details={details} />}
+        {modal && (
+          <Modal handleModal={handleModal} details={details} modal={modal} />
+        )}
         {team.map((item) => (
           <Teacher key={item.name}>
             <img id={item.id} src={item.image} alt="foto do professor " />

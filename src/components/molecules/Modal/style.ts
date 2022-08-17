@@ -18,6 +18,7 @@ export const CardModal = styled(Container)`
   background: ${COLORS.black_medium};
   position: relative;
   top: 10%;
+  overflow: hidden;
 `;
 
 export const ButtonClose = styled(CardButton)`

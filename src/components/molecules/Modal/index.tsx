@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { icons } from "../../../assets";
 
 import {
@@ -9,14 +10,24 @@ import {
   LogoImage,
 } from "./style";
 
-const Modal = ({ handleModal, details }: any) => {
-  const { name, image, id, specialties } = details;
+const Modal = ({ id = "modal", handleModal, details, modal }: any) => {
+  const handleOutsideClick = (e: any) => {
+    if (e.target.id === id) {
+      handleModal();
+    }
+  };
+  const { name, image, specialties } = details;
+  const element: any = document.getElementById("main");
+
+  useEffect(() => {
+    modal && (element.style.overflow = "hidden");
+  }, []);
   return (
-    <ContainerModal>
+    <ContainerModal onClick={handleOutsideClick} id={id}>
       <CardModal>
         <ButtonClose onClick={handleModal}>x</ButtonClose>
         <CardDetails>
-          <LogoImage src={image} alt={id} />
+          <LogoImage src={image} alt="" />
           <h1>{name}</h1>
           <List>
             {specialties?.map((specialtie: any) => (
