@@ -283,7 +283,7 @@ export const StarMaped = [1, 2, 3, 4, 5].map(() => (
 
 export const ClientsMocks = [
   {
-    name: "Jéssica",
+    name: "Jessica",
     img: images.jessicaTestimonial,
     description: `${i18n.t("testimonial.students.first.message")}`,
   },
