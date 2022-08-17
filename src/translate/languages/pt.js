@@ -17,6 +17,7 @@ export const messages = {
       },
       team: {
         title: "Nosso Time",
+        specialties: "Especialidades",
         teacher: {
           one: {
             functionTeacher: "Treinador Fisiculturismo",
@@ -57,8 +58,8 @@ export const messages = {
               one: "Treinador da empresa CMSK BODYBUILDING FITNESS",
               two: "Especialista em treinamento para hipertrofia muscular",
               third: "Especialista em treinamento de membros inferiores",
-              four: "Especialista em mulheres e idosos.",
-              five: "Tratamento de patologias.",
+              four: "Especialista em treinamento de mulheres e idosos",
+              five: "Tratamento de patologias",
               six: "Atleta  classycphysic ",
               seven: "2 vezes 3 lugar BB MEDUIM wabba",
               eight: "4 lugar classicphysic wabba",

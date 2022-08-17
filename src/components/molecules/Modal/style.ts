@@ -41,6 +41,7 @@ export const CardDetails = styled.div`
   flex-direction: column;
   align-items: center;
   color: ${COLORS.white_100};
+  overflow: hidden;
   h1 {
     font-size: 25px;
   }

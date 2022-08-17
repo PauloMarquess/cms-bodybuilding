@@ -46,7 +46,7 @@ const Team = () => {
                   handleModal(item);
                 }}
               >
-                Especialidades
+                {i18n.t("team.specialties")}
               </ButtonModal>
             </Details>
           </Teacher>
