@@ -31,7 +31,7 @@ export const CardPlan = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   gap: 5px;
-  padding: 25px 30px;
+  padding: 22px;
   border-radius: 8px;
   background-color: red;
   width: 22%;

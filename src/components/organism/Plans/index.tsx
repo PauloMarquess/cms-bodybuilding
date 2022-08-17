@@ -15,7 +15,14 @@ import {
 
 const Plans = () => {
   return (
-    <Container id="plans" height="auto" column responsive>
+    <Container
+      width="85%"
+      margin="0 auto"
+      id="plans"
+      height="auto"
+      column
+      responsive
+    >
       <LegensPlan>
         {i18n.t("plans.title")} <span>{i18n.t("plans.titleSpan")}</span>{" "}
       </LegensPlan>
