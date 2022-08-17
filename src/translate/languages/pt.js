@@ -9,7 +9,7 @@ export const messages = {
         contact: "Contato",
       },
       presentation: {
-        title: "SAÚDE + PODER + FELICIDADE",
+        title: "SAÚDE + PODER + SUA MELHOR FORMA",
         subtitle: "CONSTRUA SEU CORPO",
         description:
           "Nossa equipe qualificada de instrutores ajuda nossos clientes a desenvolver seus corpos e mentes, alcançar os melhores resultados e aproveitar os verdadeiros desafios de condicionamento físico enquanto estamos motivados positivamente. Resultados que você e seu corpo merecem.",
@@ -130,6 +130,7 @@ export const messages = {
           two: "Hipertrofia Muscular",
           three: "Aumentar o condicionamente físico",
           four: "Ganho massa magra",
+          five: "Treinamento específico para bariatria",
         },
       },
       plans: {

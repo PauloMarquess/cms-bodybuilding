@@ -37,6 +37,7 @@ export const objective = [
   { name: `${i18n.t("mission.objective.two")}` },
   { name: `${i18n.t("mission.objective.three")}` },
   { name: `${i18n.t("mission.objective.four")}` },
+  { name: `${i18n.t("mission.objective.five")}` },
 ];
 
 export const team = [
@@ -123,8 +124,6 @@ export const team = [
       { name: `${i18n.t("team.teacher.five.specialties.six")}` },
       { name: `${i18n.t("team.teacher.five.specialties.seven")}` },
       { name: `${i18n.t("team.teacher.five.specialties.eight")}` },
-      { name: `${i18n.t("team.teacher.five.specialties.nine")}` },
-      { name: `${i18n.t("team.teacher.five.specialties.ten")}` },
     ],
   },
 

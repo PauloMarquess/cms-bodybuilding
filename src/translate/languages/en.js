@@ -9,7 +9,7 @@ export const messages = {
         contact: "Contact",
       },
       presentation: {
-        title: "HEALTH + POWER + HAPPINESS",
+        title: "HEALTH + POWER + YOUR BEST SHAPE",
         subtitle: "BUILD YOUR BODY",
         description:
           "Our qualified team of instructors help our clients to develop their bodies and minds, achieve the best results and enjoy true fitness challenges while being positively motivated. Results you and your body deserve.",
@@ -30,6 +30,7 @@ export const messages = {
           two: "Muscular hypertrophy",
           three: "Increase fitness",
           four: "Get lean mass",
+          five: "Specific training for bariatrics",
         },
       },
       team: {

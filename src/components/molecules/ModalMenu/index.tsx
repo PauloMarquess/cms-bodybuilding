@@ -8,6 +8,7 @@ const ModalMenu = ({ setModalVisible, modalVisible }: any) => {
   const exitModal = () => {
     setModalVisible(!modalVisible);
   };
+
   return (
     <ModalCard>
       <Header onClick={exitModal}>
