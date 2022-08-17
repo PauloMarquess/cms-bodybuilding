@@ -49,6 +49,7 @@ export const Teacher = styled.div`
 
   img {
     width: 300px;
+    filter: drop-shadow(0px 0px 1px ${COLORS.primary});
   }
   #charles {
     position: relative;
