@@ -17,7 +17,7 @@ export const CardPlans = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
   flex-wrap: wrap;
   color: ${COLORS.white_default};
   @media (max-width: 769px) {
@@ -34,7 +34,7 @@ export const CardPlan = styled.div`
   padding: 22px;
   border-radius: 8px;
   background-color: red;
-  width: 22%;
+  width: 26%;
   height: 60vh;
   cursor: pointer;
   position: relative;
@@ -44,9 +44,10 @@ export const CardPlan = styled.div`
   transition: all 0.5s ease;
   min-width: 300px;
 
-  :nth-child(2) {
+  :nth-child(2),
+  :nth-child(4) {
     background-color: ${COLORS.black};
-    width: 25%;
+    width: 28%;
     min-width: 330px;
     height: 65vh;
     color: ${COLORS.gray};

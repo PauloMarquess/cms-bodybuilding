@@ -28,6 +28,12 @@ import Monica from "./images/monica.png";
 import Janaina from "./images/janaina.png";
 import Vinicius from "./images/vinicius.png";
 import Harley from "./images/harley.png";
+import HarleyPerfil from "./images/perfil-harley.png";
+import CharlesPerfil from "./images/perfil-charles.png";
+import ViniciusPerfil from "./images/perfil-vinicius.png";
+import MonicaPerfil from "./images/perfil-monica.png";
+import JanainaPerfil from "./images/perfil-janaina.png";
+import AlinePerfil from "./images/perfil-aline.png";
 
 export const images = {
   logo: Logo,
@@ -46,6 +52,12 @@ export const images = {
   janaina: Janaina,
   vinicius: Vinicius,
   aline: Aline,
+  alinePerfil: AlinePerfil,
+  janainaPerfil: JanainaPerfil,
+  monicaPerfil: MonicaPerfil,
+  charlesPerfil: CharlesPerfil,
+  viniciusPerfil: ViniciusPerfil,
+  harleyPerfil: HarleyPerfil,
 };
 export const icons = {
   facebook: Facebook,

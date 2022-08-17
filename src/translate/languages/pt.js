@@ -174,6 +174,18 @@ export const messages = {
             four: "Acompanhamento individual",
           },
         },
+        group: {
+          legend: "Pacote Grupo Trimestral ",
+          price: "200,00",
+          month: "Trimestral",
+          subtitle: "Benefícios do plano",
+          benefits: {
+            one: "Treinos em alta intensidade ",
+            two: "Horários fixos e diversificados",
+            three: "Motivacional",
+            four: "Até no máximo 04 pessoas ",
+          },
+        },
         couple: {
           legend: "Consultoria Bodybuilding ",
           price: "50,00",

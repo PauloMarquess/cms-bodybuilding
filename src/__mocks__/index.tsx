@@ -46,6 +46,7 @@ export const team = [
     name: `${i18n.t("team.teacher.one.name")}`,
     functionTeacher: `${i18n.t("team.teacher.one.functionTeacher")}`,
     image: images.charles,
+    perfil: images.charlesPerfil,
     specialties: [
       { name: `${i18n.t("team.teacher.one.specialties.one")}` },
       { name: `${i18n.t("team.teacher.one.specialties.two")}` },
@@ -63,6 +64,7 @@ export const team = [
     name: `${i18n.t("team.teacher.two.name")}`,
     functionTeacher: `${i18n.t("team.teacher.two.functionTeacher")}`,
     image: images.harley,
+    perfil: images.harleyPerfil,
     specialties: [
       { name: `${i18n.t("team.teacher.two.specialties.one")}` },
       { name: `${i18n.t("team.teacher.two.specialties.two")}` },
@@ -80,6 +82,7 @@ export const team = [
     name: `${i18n.t("team.teacher.third.name")}`,
     functionTeacher: `${i18n.t("team.teacher.third.functionTeacher")}`,
     image: images.vinicius,
+    perfil: images.viniciusPerfil,
     specialties: [
       { name: `${i18n.t("team.teacher.third.specialties.one")}` },
       { name: `${i18n.t("team.teacher.third.specialties.two")}` },
@@ -97,6 +100,7 @@ export const team = [
     name: `${i18n.t("team.teacher.four.name")}`,
     functionTeacher: `${i18n.t("team.teacher.four.functionTeacher")}`,
     image: images.monica,
+    perfil: images.monicaPerfil,
     specialties: [
       { name: `${i18n.t("team.teacher.four.specialties.one")}` },
       { name: `${i18n.t("team.teacher.four.specialties.two")}` },
@@ -115,6 +119,7 @@ export const team = [
     name: `${i18n.t("team.teacher.five.name")}`,
     functionTeacher: `${i18n.t("team.teacher.five.functionTeacher")}`,
     image: images.janaina,
+    perfil: images.janainaPerfil,
     specialties: [
       { name: `${i18n.t("team.teacher.five.specialties.one")}` },
       { name: `${i18n.t("team.teacher.five.specialties.two")}` },
@@ -132,6 +137,7 @@ export const team = [
     name: `${i18n.t("team.teacher.six.name")}`,
     functionTeacher: `${i18n.t("team.teacher.six.functionTeacher")}`,
     image: images.aline,
+    perfil: images.alinePerfil,
     specialties: [
       { name: `${i18n.t("team.teacher.six.specialties.one")}` },
       { name: `${i18n.t("team.teacher.six.specialties.two")}` },
@@ -184,6 +190,20 @@ export const plans = [
       { name: `${i18n.t("plans.gold.benefits.two")}` },
       { name: `${i18n.t("plans.gold.benefits.three")}` },
       { name: `${i18n.t("plans.gold.benefits.four")}` },
+    ],
+  },
+  {
+    legend: `${i18n.t("plans.group.legend")}`,
+    price: `${i18n.t("plans.group.price")}`,
+    month: `${i18n.t("plans.group.month")}`,
+    subtitle: `${i18n.t("plans.group.subtitle")}`,
+    destak: true,
+    link: "Paulinho_marques2012@hotmail.com",
+    benefits: [
+      { name: `${i18n.t("plans.couple.benefits.one")}` },
+      { name: `${i18n.t("plans.couple.benefits.two")}` },
+      { name: `${i18n.t("plans.couple.benefits.three")}` },
+      { name: `${i18n.t("plans.couple.benefits.four")}` },
     ],
   },
   {

@@ -58,6 +58,16 @@ export const Teacher = styled.div`
     position: relative;
     right: 20px;
   }
+  #harley {
+    position: relative;
+    top: 60px;
+    width: 330px;
+  }
+  #monica {
+    position: relative;
+    top: 30px;
+    width: 380px;
+  }
 
   h1 {
     text-transform: uppercase;

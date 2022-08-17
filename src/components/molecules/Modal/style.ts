@@ -39,7 +39,8 @@ export const LogoImage = styled.img`
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  background: ${COLORS.third};
+  background: ${COLORS.primary};
+
   @media (max-width: 769px) {
     width: 100px;
     height: 100px;

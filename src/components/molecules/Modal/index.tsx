@@ -16,7 +16,7 @@ const Modal = ({ id = "modal", handleModal, details, modal }: any) => {
       handleModal();
     }
   };
-  const { name, image, specialties } = details;
+  const { name, perfil, specialties } = details;
   const element: any = document.getElementById("main");
 
   useEffect(() => {
@@ -27,7 +27,7 @@ const Modal = ({ id = "modal", handleModal, details, modal }: any) => {
       <CardModal>
         <ButtonClose onClick={handleModal}>x</ButtonClose>
         <CardDetails>
-          <LogoImage src={image} alt="" />
+          <LogoImage src={perfil} alt="" />
           <h1>{name}</h1>
           <List>
             {specialties?.map((specialtie: any) => (

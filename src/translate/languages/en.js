@@ -174,6 +174,18 @@ export const messages = {
             four: "Individual follow-up",
           },
         },
+        group: {
+          legend: "Quarterly Group Package ",
+          price: "200,00",
+          month: "Quarterly",
+          subtitle: "Benefícios do plano",
+          benefits: {
+            one: "High intensity workouts",
+            two: "Fixed and varied hours",
+            three: "Motivational",
+            four: "Up to a maximum of 04 people",
+          },
+        },
         couple: {
           legend: "Bodybuilding Consulting",
           price: "50,00",
