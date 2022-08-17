@@ -16,7 +16,7 @@ import {
   CardTestimonial,
   Background,
 } from "./style";
-import { ImageHexagono } from "../../atoms/ImageHexagono";
+import { ImageTestimonial } from "../../atoms/ImageTestimonial";
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -52,7 +52,7 @@ const Testimonial = () => {
           {ClientsMocks.map((i) => (
             <SwiperSlide>
               <CardStudent>
-                <ImageHexagono src={i.img} alt="perfil do cliente" />
+                <ImageTestimonial src={i.img} alt="perfil do cliente" />
                 <StudentComent>
                   <img src={icons.aspa} />
                   <p>{i.description}</p>

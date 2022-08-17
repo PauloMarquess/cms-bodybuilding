@@ -250,31 +250,31 @@ export const contact = [
 export const openingHours = [
   {
     day: `${i18n.t("footer.openingHours.week.one")}`,
-    hour: "07:00-17:00",
+    hour: "07:00-20:00",
   },
   {
     day: `${i18n.t("footer.openingHours.week.two")}`,
-    hour: "07:00-17:00",
+    hour: "07:00-20:00",
   },
   {
     day: `${i18n.t("footer.openingHours.week.three")}`,
-    hour: "07:00-17:00",
+    hour: "07:00-20:00",
   },
   {
     day: `${i18n.t("footer.openingHours.week.four")}`,
-    hour: "07:00-17:00",
+    hour: "07:00-20:00",
   },
   {
     day: `${i18n.t("footer.openingHours.week.five")}`,
-    hour: "07:00-17:00",
+    hour: "07:00-20:00",
   },
   {
     day: `${i18n.t("footer.openingHours.week.six")}`,
-    hour: "07:00-17:00",
+    hour: "07:00-20:00",
   },
   {
     day: `${i18n.t("footer.openingHours.week.seven")}`,
-    hour: "07:00-17:00",
+    hour: "07:00-20:00",
   },
 ];
 export const StarMaped = [1, 2, 3, 4, 5].map(() => (
@@ -283,18 +283,18 @@ export const StarMaped = [1, 2, 3, 4, 5].map(() => (
 
 export const ClientsMocks = [
   {
-    name: "Paulo",
-    img: images.paulo,
+    name: "Jéssica",
+    img: images.jessicaTestimonial,
     description: `${i18n.t("testimonial.students.first.message")}`,
   },
   {
-    name: "Rafaela",
-    img: images.rafaela,
+    name: "Marles",
+    img: images.marlesTestimonial,
     description: `${i18n.t("testimonial.students.second.message")}`,
   },
   {
-    name: "Matheus",
-    img: images.mateus,
+    name: "Francine Rocha",
+    img: images.francineTestimonial,
     description: `${i18n.t("testimonial.students.third.message")}`,
   },
 ];

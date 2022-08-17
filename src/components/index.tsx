@@ -1,5 +1,5 @@
 export { Container } from "./atoms/Container";
-export { ImageHexagono } from "./atoms/ImageHexagono";
+export { ImageTestimonial } from "./atoms/ImageTestimonial";
 export { default as Logo } from "./atoms/Logo";
 export { default as ChangeLanguage } from "./atoms/ChangeLanguage";
 export { default as Chat } from "./atoms/Chat";

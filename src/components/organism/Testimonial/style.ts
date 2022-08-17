@@ -47,7 +47,7 @@ export const SlideContainer = styled.div`
   }
   .swiper-button-next,
   .swiper-button-prev {
-    top: 81%;
+    top: 83%;
     margin: 0 39%;
     padding: 20px;
     width: 100px;
@@ -56,7 +56,7 @@ export const SlideContainer = styled.div`
 
     @media (max-width: 860px) {
       margin: 0 15%;
-      top: 87%;
+      top: 89%;
     }
   }
   .swiper-button-next {
@@ -81,14 +81,15 @@ export const SlideContainer = styled.div`
 `;
 export const CardStudent = styled.div`
   display: flex;
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
   align-items: center;
   background: ${COLORS.white_dark};
   border: 5px solid ${COLORS.white_100};
   border-radius: 13px;
-  height: 250px;
+  height: 300px;
   gap: 20px;
+  padding: 30px;
 
   @media (max-width: 769px) {
     flex-direction: column;

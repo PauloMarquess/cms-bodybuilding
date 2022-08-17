@@ -18,9 +18,9 @@ import Star from "./icons/star.svg";
 import Background from "./icons/background.svg";
 import ArrowLeft from "./icons/arrowleft.svg";
 import ArrowRight from "./icons/arrowright.svg";
-import Mateus from "./images/matheus.jpg";
-import Rafela from "./images/rafaela.jpeg";
-import Paulo from "./images/paulo.jpg";
+import JessicaTestimonial from "./images/jessica-testimonial.jpeg";
+import MarlesTestimonial from "./images/marles-testimonial.jpeg";
+import FrancineTestimonial from "./images/francine-testimonial.jpeg";
 import Parallax from "./images/parallax.jpg";
 import Aline from "./images/aline.png";
 import Charles from "./images/charles.png";
@@ -43,9 +43,9 @@ export const images = {
   crown: Crown,
   brasil: Brasil,
   england: England,
-  mateus: Mateus,
-  paulo: Paulo,
-  rafaela: Rafela,
+  jessicaTestimonial: JessicaTestimonial,
+  marlesTestimonial: MarlesTestimonial,
+  francineTestimonial: FrancineTestimonial,
   harley: Harley,
   monica: Monica,
   charles: Charles,

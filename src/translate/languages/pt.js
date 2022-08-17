@@ -206,15 +206,15 @@ export const messages = {
         students: {
           first: {
             message:
-              " O motivo que me leva a fazer musculação é o fato de fazer muito bem para a minha saúde. Procurei o profissional porque o atendimento individual é necessário para as minhas necessidades. Para mim fazer exercícios é muito importante e aumenta minha disposição para as atividades do dia a dia.",
+              " O acompanhamento com o Charles fez da minha primeira competição uma das melhores experiências da minha vida. Além de toda experiência no bodybuilding, ele me deu todo o  suporte emocional que precisei durante a consultoria, e agora mais do que um treinador ganhei um amigo para a vida toda! Sou eternamente grata. ",
           },
           second: {
             message:
-              "Sempre me considerei apto a fazer academia sem auxílio de qualquer orientador, porém que não havia os resultados esperados, o que me levava a constatar que tudo estava errado. Foi quando minha namorada me aconselhou a contratar um personal, hoje estou muito satisfeito,o resultado é fantástico",
+              "O treino on-line mudou minha vida! Sempre lutei contra obesidade e pensei que não conseguiria vencer essa batalha. Com a ajuda dos profissionais da CMSK Bodybuilding Fitness tenho vencido vários obstáculos, e o mais importante é saber q eu posso ser melhor a cada dia! Tudo fica mais belo quando conseguimos ter disciplina, foco , determinação!!! Podemos treinar em qualquer lugar, até quando estamos de férias. Com toda certeza minha vida está divida entre antes e depois da CMSK Bodybuilding Fitness. ",
           },
           third: {
             message:
-              "Para mim, o atendimento personalizado cria comprometimento por parte do aluno, com dia e horário previamente agendados com o professor. Além disso, os treinos são montados, modificados e acompanhados para atender a necessidades específicas, Minhas aulas são satisfatórias",
+              "Antes de começar treinar online ao vivo eu achava que ia ser estranho, mas logo mudei de opiniao e hje em dia nao tenho nem um pouco de vontade de voltar pra academia. Pra mim mudou meu mundo, tive muito resultado. O Charles é sensacional, como treinador, nutricionista e toda aula eu aprendo algo novo com ele.Eu recomendo ele pra todo mundo porque realmente confio nele e no trabalho dele. ",
           },
         },
       },

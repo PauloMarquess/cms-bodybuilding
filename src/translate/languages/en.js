@@ -206,15 +206,15 @@ export const messages = {
         students: {
           first: {
             message:
-              "The reason that leads me to do weight training is the fact that it is very good for my health. I looked for the professional because individual care is necessary for my needs. For me, exercising is very important and increases my disposition for day-to-day activities.",
+              "Following up with Charles made my first competition one of the best experiences of my life. In addition to all my bodybuilding experience, he gave me all the emotional support I needed during the consultation, and now more than a coach I've gained a friend for life! I am eternally grateful.",
           },
           second: {
             message:
-              "I always considered myself able to go to the gym without the help of any advisor, but that there were not the expected results, which led me to see that everything was wrong. That's when my girlfriend advised me to hire a personal, today I'm very satisfied, the result is fantastic",
+              "For me, personalized service creates commitment on the part of the student, with a day and time previously scheduled with the teacher. In addition, the workouts are assembled, modified and monitored to meet specific needs, My classes are satisfactory.For sure my life is divided between before and after CMSK Bodybuilding Fitness.",
           },
           third: {
             message:
-              "For me, personalized service creates commitment on the part of the student, with a day and time previously scheduled with the teacher. In addition, the workouts are assembled, modified and monitored to meet specific needs, My classes are satisfactory",
+              "Before I started to train live online I thought it would be weird, but soon I changed my opinion and nowadays I don't have any desire to go back to the gym. My world changed for me, I had a lot of results. Charles is amazing, as a coach, nutritionist and every class I learn something new from him. I recommend him to everyone because I really trust him and his work.",
           },
         },
       },
