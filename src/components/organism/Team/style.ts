@@ -44,7 +44,6 @@ export const Teacher = styled.div`
   align-items: center;
   background-color: #1313149c;
   border-radius: 8px;
-  cursor: pointer;
   position: relative;
   height: 550px;
 
@@ -54,10 +53,6 @@ export const Teacher = styled.div`
   #charles {
     position: relative;
     top: 70px;
-  }
-  #harley {
-    position: relative;
-    top: 20px;
   }
   #aline {
     position: relative;

@@ -13,12 +13,17 @@ export const ContainerModal = styled.div`
 `;
 export const CardModal = styled(Container)`
   width: 50%;
-  height: 600px;
+  height: auto;
   margin: auto;
   background: ${COLORS.black_medium};
   position: relative;
   top: 10%;
-  overflow: hidden;
+  padding: 40px 0 50px 0;
+  @media (max-width: 769px) {
+    width: 90%;
+    padding: 30px;
+    right: 4%;
+  }
 `;
 
 export const ButtonClose = styled(CardButton)`
@@ -33,8 +38,12 @@ export const ButtonClose = styled(CardButton)`
 export const LogoImage = styled.img`
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  background: ${COLORS.secondary};
+  border-radius: 100%;
+  background: ${COLORS.third};
+  @media (max-width: 769px) {
+    width: 100px;
+    height: 100px;
+  }
 `;
 export const CardDetails = styled.div`
   display: flex;
