@@ -246,7 +246,7 @@ export const messages = {
         },
         contacts: {
           title: "Contacts",
-          phoneLegend: "Service from Sunday to Sunday",
+          phoneLegend: "Service from Monday to Saturday",
           emailLegend: "cmsk@gmail.com",
         },
       },
