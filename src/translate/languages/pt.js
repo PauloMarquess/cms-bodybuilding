@@ -130,7 +130,7 @@ export const messages = {
           two: "Hipertrofia Muscular",
           three: "Aumentar o condicionamente físico",
           four: "Ganho massa magra",
-          five: "Treinamento específico para bariatria",
+          five: "Treinamento específico para bariátrica",
         },
       },
       plans: {
