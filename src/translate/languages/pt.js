@@ -210,11 +210,23 @@ export const messages = {
           },
           second: {
             message:
-              "O treino on-line mudou minha vida! Sempre lutei contra obesidade e pensei que não conseguiria vencer essa batalha. Com a ajuda dos profissionais da CMSK Bodybuilding Fitness tenho vencido vários obstáculos, e o mais importante é saber q eu posso ser melhor a cada dia! Tudo fica mais belo quando conseguimos ter disciplina, foco , determinação!!! Podemos treinar em qualquer lugar, até quando estamos de férias. Com toda certeza minha vida está divida entre antes e depois da CMSK Bodybuilding Fitness. ",
+              "O treino online mudou minha vida! Sempre lutei contra obesidade e pensei que não conseguiria vencer essa batalha. Com a ajuda dos profissionais da CMSK Bodybuilding Fitness tenho vencido vários obstáculos, e o mais importante é saber q eu posso ser melhor a cada dia! Podemos treinar em qualquer lugar, até quando estamos de férias. Com toda certeza minha vida está divida entre antes e depois da CMSK Bodybuilding Fitness. ",
           },
           third: {
             message:
-              "Antes de começar treinar online ao vivo eu achava que ia ser estranho, mas logo mudei de opiniao e hje em dia nao tenho nem um pouco de vontade de voltar pra academia. Pra mim mudou meu mundo, tive muito resultado. O Charles é sensacional, como treinador, nutricionista e toda aula eu aprendo algo novo com ele.Eu recomendo ele pra todo mundo porque realmente confio nele e no trabalho dele. ",
+              "Antes de começar treinar online ao vivo eu achava que ia ser estranho, mas logo mudei de opinião e hoje em dia não tenho nem um pouco de vontade de voltar pra academia. Pra mim mudou meu mundo, tive muito resultado. A CMSK é sensacional,e conta com um pacote completo de treino,nutrição e suplementação.Eu recomendo a CMSK  pra todo mundo porque realmente confio nos professores. ",
+          },
+          four: {
+            message:
+              " Conheci a CMSK que foi um divisor de águas, a princípio começamos os treinos em casa, pois estava com uma bêbe de 5 meses que dificultava que eu fosse até uma academia, o treino online foi a melhor decisão que eu tomei naquele momento onde eu tive todo suporte nutricional e o acompanhamento dessa equipe fantástica, onde eu perdi 13 kg e recuperei minha auto estima.Se o treino online juntamente com a dieta for seguido com seriedade os resultados são espetaculares. ",
+          },
+          five: {
+            message:
+              "É sempre uma honra ser preparada pela CMSK, eu à conheci em 2019 e 2019 e juntos conquistamos os dois maiores títulos da minha carreira (Musclecontest Irlanda e o Olympia Uk).Eu amo a forma de trabalho da equipe ,fizeram toda a diferença na minha preparação me ajudando com alimentação e com os treinos. Seja qual for o objetivo desde subir no palco a manter a forma física a CMSK é a melhor escolha você irá fazer",
+          },
+          six: {
+            message:
+              "A CMSK ajudou a mudar minh a composição corporal depois de ter 2 bebês em um espaço de 2 anos, construí músculos, perdi gordura, melhorei minha postura e atitude em relação à comida. Hoje me sinto cheio de energia para cuidar da minha casa, estudar, brincar com meus filhos e à noite durmo como um bebê.Recomendamos fortemente a CMSK. Esse é o melhor investimento de nossas vidas.",
           },
         },
       },

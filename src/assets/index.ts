@@ -20,7 +20,10 @@ import ArrowLeft from "./icons/arrowleft.svg";
 import ArrowRight from "./icons/arrowright.svg";
 import JessicaTestimonial from "./images/jessica-testimonial.jpeg";
 import MarlesTestimonial from "./images/marles-testimonial.jpeg";
+import MoniqueTestimonial from "./images/monique-testimonial.jpeg";
 import FrancineTestimonial from "./images/francine-testimonial.jpeg";
+import VanessaTestimonial from "./images/vanessa-testimonial.jpeg";
+import ElaineTestimonial from "./images/elaine-testimonial.jpeg";
 import Parallax from "./images/parallax.jpg";
 import Aline from "./images/aline.png";
 import Charles from "./images/charles.png";
@@ -46,6 +49,9 @@ export const images = {
   jessicaTestimonial: JessicaTestimonial,
   marlesTestimonial: MarlesTestimonial,
   francineTestimonial: FrancineTestimonial,
+  moniqueTestimonial: MoniqueTestimonial,
+  vanessaTestimonial: VanessaTestimonial,
+  elaineTestimonial: ElaineTestimonial,
   harley: Harley,
   monica: Monica,
   charles: Charles,

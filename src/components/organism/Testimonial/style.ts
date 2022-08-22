@@ -48,15 +48,14 @@ export const SlideContainer = styled.div`
   .swiper-button-next,
   .swiper-button-prev {
     top: 83%;
-    margin: 0 39%;
+    margin: 0 35%;
     padding: 20px;
     width: 100px;
     height: 100px;
     z-index: 1;
 
     @media (max-width: 860px) {
-      margin: 0 15%;
-      top: 89%;
+      display: none;
     }
   }
   .swiper-button-next {
@@ -76,7 +75,10 @@ export const SlideContainer = styled.div`
   .swiper-pagination-horizontal,
   .swiper-pagination-fraction {
     width: auto;
-    left: calc(50% - 32px);
+    left: calc(50% - 64px);
+    @media (max-width: 769px) {
+      bottom: 70px;
+    }
   }
 `;
 export const CardStudent = styled.div`
@@ -128,9 +130,9 @@ export const StudentAssessment = styled.div`
   justify-content: space-between;
   padding-top: 20px;
   h4 {
-    font-family: "Edu VIC WA NT Beginner", cursive;
-    font-weight: bolder;
-    font-size: 18px;
+    font-family: "Montserrat", cursive;
+    font-weight: 600;
+    font-size: 16px;
   }
   img {
     width: 13px;

@@ -36,7 +36,6 @@ export const CardPlan = styled.div`
   background-color: red;
   width: 26%;
   height: 60vh;
-  cursor: pointer;
   position: relative;
   background-color: ${COLORS.third};
   color: black;

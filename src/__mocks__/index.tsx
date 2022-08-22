@@ -250,7 +250,7 @@ export const contact = [
 export const openingHours = [
   {
     day: `${i18n.t("footer.openingHours.week.one")}`,
-    hour: "07:00-20:00",
+    hour: "- - - - - - - - -  -",
   },
   {
     day: `${i18n.t("footer.openingHours.week.two")}`,
@@ -274,7 +274,7 @@ export const openingHours = [
   },
   {
     day: `${i18n.t("footer.openingHours.week.seven")}`,
-    hour: "07:00-20:00",
+    hour: "08:00-12:00",
   },
 ];
 export const StarMaped = [1, 2, 3, 4, 5].map(() => (
@@ -288,7 +288,7 @@ export const ClientsMocks = [
     description: `${i18n.t("testimonial.students.first.message")}`,
   },
   {
-    name: "Marles",
+    name: "Amárilis Porto ",
     img: images.marlesTestimonial,
     description: `${i18n.t("testimonial.students.second.message")}`,
   },
@@ -296,5 +296,20 @@ export const ClientsMocks = [
     name: "Francine Rocha",
     img: images.francineTestimonial,
     description: `${i18n.t("testimonial.students.third.message")}`,
+  },
+  {
+    name: "Monique",
+    img: images.moniqueTestimonial,
+    description: `${i18n.t("testimonial.students.four.message")}`,
+  },
+  {
+    name: "Elaine Ranzatto",
+    img: images.elaineTestimonial,
+    description: `${i18n.t("testimonial.students.five.message")}`,
+  },
+  {
+    name: "Vanessa",
+    img: images.vanessaTestimonial,
+    description: `${i18n.t("testimonial.students.six.message")}`,
   },
 ];

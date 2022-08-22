@@ -140,7 +140,7 @@ export const messages = {
         button: "Start Plan",
         coin: "£",
         basic: {
-          legend: "Basic Plan",
+          legend: "Personal trainer",
           price: "180,00",
           month: "Monthly",
           benefits: {
@@ -163,7 +163,7 @@ export const messages = {
           },
         },
         gold: {
-          legend: "Gold Plan",
+          legend: "Quarterly package",
           price: "450,00",
           month: "Quarterly",
           subtitle: "Benefícios do plano",
@@ -210,11 +210,23 @@ export const messages = {
           },
           second: {
             message:
-              "For me, personalized service creates commitment on the part of the student, with a day and time previously scheduled with the teacher. In addition, the workouts are assembled, modified and monitored to meet specific needs, My classes are satisfactory.For sure my life is divided between before and after CMSK Bodybuilding Fitness.",
+              "Online training changed my life! I've always struggled with obesity and thought I couldn't win this battle. With the help of CMSK Bodybuilding Fitness professionals I have overcome many obstacles, and the most important thing is knowing that I can be better every day! We can train anywhere, even when we are on vacation. For sure my life is divided between before and after CMSK Bodybuilding Fitness.",
           },
           third: {
             message:
-              "Before I started to train live online I thought it would be weird, but soon I changed my opinion and nowadays I don't have any desire to go back to the gym. My world changed for me, I had a lot of results. Charles is amazing, as a coach, nutritionist and every class I learn something new from him. I recommend him to everyone because I really trust him and his work.",
+              "Before starting to train live online I thought it would be weird, but I soon changed my mind and nowadays I have no desire to go back to the gym. My world changed for me, I had a lot of results. CMSK is amazing, and has a complete package of training, nutrition and supplementation. I recommend CMSK to everyone because I really trust the teachers.",
+          },
+          four: {
+            message:
+              " I met CMSK which was a watershed, at first we started training at home, because I had a 5 month old baby that made it difficult for me to go to a gym, online training was the best decision I made at that moment where I had all nutritional support and follow-up from this fantastic team, where I lost 13 kg and regained my self-esteem. If the online training along with the diet is followed seriously, the results are spectacular. ",
+          },
+          five: {
+            message:
+              "It is always an honor to be prepared by CMSK, I met her in 2019 and 2019 and together we won the two biggest titles of my career (Musclecontest Ireland and Olympia Uk). preparation helping me with food and training. Whatever your goal, from getting on stage to staying in shape, CMSK is the best choice you'll make.",
+          },
+          six: {
+            message:
+              "CMSK helped change my body composition after having 2 babies in a span of 2 years, I built muscle, lost fat, improved my posture and attitude towards food. Today I feel full of energy to take care of my house, study, play with my children and at night I sleep like a baby. We strongly recommend CMSK. This is the best investment of our lives.",
           },
         },
       },
