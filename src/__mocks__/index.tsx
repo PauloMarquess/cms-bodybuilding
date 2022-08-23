@@ -227,7 +227,11 @@ export const plans = [
 ];
 
 export const socialMedia = [
-  { name: "facebook", icons: icons.facebook, link: "#" },
+  {
+    name: "facebook",
+    icons: icons.facebook,
+    link: "https://www.facebook.com/profile.php?id=100005026590992",
+  },
   {
     name: "instagram",
     icons: icons.instagram,
