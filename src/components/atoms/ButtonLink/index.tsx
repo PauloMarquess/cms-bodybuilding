@@ -6,6 +6,7 @@ interface ButtonLinkProps {
   link: string;
   borderRadius?: string;
   boxShadow?: boolean;
+  target?: string;
 }
 
 const ButtonLink = ({
@@ -13,9 +14,15 @@ const ButtonLink = ({
   link,
   borderRadius,
   boxShadow,
+  target,
 }: ButtonLinkProps) => {
   return (
-    <CardButton boxShadow={boxShadow} borderRadius={borderRadius} href={link}>
+    <CardButton
+      boxShadow={boxShadow}
+      borderRadius={borderRadius}
+      href={link}
+      target={target}
+    >
       {children}
     </CardButton>
   );

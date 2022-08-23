@@ -1,6 +1,11 @@
 export const messages = {
   pt: {
     translations: {
+      whatsapp: {
+        message:
+          "https://api.whatsapp.com/send?phone=4407465748962&text=Ol%C3%A1%20%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20programa%20CMSK%20!",
+      },
+
       navigation: {
         home: "Inicio",
         mission: "Missão",
@@ -139,10 +144,12 @@ export const messages = {
         benefitsPlans: "Benefícios do plano",
         button: "Iniciar Plano",
         coin: "£",
+        realTime: "Aulas ao vivo",
         basic: {
           legend: "Personal Trainer",
           price: "180,00",
           month: "Mensal",
+          message: `https://api.whatsapp.com/send?phone=4407465748962&text=Ol%C3%A1%20%2C%20gostaria%20de%20aderir%20o%20plano%20Personal%20Trainer`,
           benefits: {
             one: "Avaliação Física",
             two: "Acompanhamento Nutricional",
@@ -154,6 +161,7 @@ export const messages = {
           legend: "Treino em Grupo",
           price: "80,00",
           month: "Mensal",
+          message: `https://api.whatsapp.com/send?phone=4407465748962&text=Ol%C3%A1%20%2C%20gostaria%20de%20aderir%20o%20plano%20Treino%20em%20Grupo`,
           subtitle: "Benefícios do plano",
           benefits: {
             one: "Treinos em alta intensidade ",
@@ -166,6 +174,7 @@ export const messages = {
           legend: "Pacote Trimestral ",
           price: "450,00",
           month: "Trimestral",
+          message: `https://api.whatsapp.com/send?phone=4407465748962&text=Ol%C3%A1%20%2C%20gostaria%20de%20aderir%20o%20Pacote%20Trimestral`,
           subtitle: "Benefícios do plano",
           benefits: {
             one: "Avaliação Física",
@@ -178,6 +187,7 @@ export const messages = {
           legend: "Pacote Grupo Trimestral ",
           price: "200,00",
           month: "Trimestral",
+          message: `https://api.whatsapp.com/send?phone=4407465748962&text=Ol%C3%A1%20%2C%20gostaria%20de%20aderir%20o%20Pacote%20Grupo%20Trimestral`,
           subtitle: "Benefícios do plano",
           benefits: {
             one: "Treinos em alta intensidade ",
@@ -190,6 +200,7 @@ export const messages = {
           legend: "Consultoria Bodybuilding ",
           price: "50,00",
           month: "Mensal",
+          message: `https://api.whatsapp.com/send?phone=4407465748962&text=Ol%C3%A1%20%2C%20gostaria%20de%20aderir%20a%20Consultoria%20Grupo%20Bodybuilding`,
           subtitle: "Benefícios do plano",
           benefits: {
             one: "Para atletas e não atletas ",
@@ -247,7 +258,7 @@ export const messages = {
         contacts: {
           title: "Contatos",
           phoneLegend: "Atendimento de segunda a sábado",
-          emailLegend: "cmsk@gmail.com",
+          emailLegend: "consultoriacms@yahoo.com.br",
         },
       },
     },

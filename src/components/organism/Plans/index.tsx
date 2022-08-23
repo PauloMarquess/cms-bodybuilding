@@ -27,8 +27,8 @@ const Plans = () => {
         {i18n.t("plans.title")} <span>{i18n.t("plans.titleSpan")}</span>{" "}
       </LegensPlan>
       <CardPlans>
-        {plans.map((plan) => (
-          <CardPlan>
+        {plans.map((plan, i) => (
+          <CardPlan key={i}>
             {plan.destak && (
               <CrownAbsolute src={images.crown} alt="imagem da coroa" />
             )}
@@ -42,8 +42,8 @@ const Plans = () => {
             <h3>{i18n.t("plans.benefitsPlans")}</h3>
             <h6>{plan.legend}</h6>
             <ListBenefit>
-              {plan.benefits.map((benefit) => (
-                <li>
+              {plan.benefits.map((benefit, index) => (
+                <li key={index}>
                   <span>
                     <img src={icons.arrow} alt="imagem icone" />
                   </span>
@@ -51,7 +51,12 @@ const Plans = () => {
                 </li>
               ))}
             </ListBenefit>
-            <ButtonLink boxShadow borderRadius="10px" link="#teste">
+            <ButtonLink
+              boxShadow
+              borderRadius="10px"
+              link={plan.link}
+              target="_blank"
+            >
               {i18n.t("plans.button")}
             </ButtonLink>
           </CardPlan>

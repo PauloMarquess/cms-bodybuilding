@@ -14,7 +14,7 @@ const NavigationDesktop = () => {
       ))}
       <p>|</p>
       {socialMedia.map((item) => (
-        <a key={item.name}>
+        <a key={item.name} href={item.link} target="_blank">
           <Media src={item.icons} alt={`icone ${item.name}`} />
         </a>
       ))}

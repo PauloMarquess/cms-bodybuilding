@@ -1,6 +1,10 @@
 export const messages = {
   en: {
     translations: {
+      whatsapp: {
+        message:
+          "https://api.whatsapp.com/send?phone=4407903324682&text=Hello%20%2C%20I%20would%20like%20to%20know%20more%20about%20the%20CMSK%20program%20!",
+      },
       navigation: {
         home: "Home",
         mission: "Mission",
@@ -139,10 +143,12 @@ export const messages = {
         benefitsPlans: "Plan benefits",
         button: "Start Plan",
         coin: "£",
+        realTime: "In real time",
         basic: {
           legend: "Personal trainer",
           price: "180,00",
           month: "Monthly",
+          message: `https://api.whatsapp.com/send?phone=4407465748962&text=Hello%20%2C%20I%20would%20like%20to%20join%20the%20Personal%20Trainer%20plan`,
           benefits: {
             one: "Physical assessment",
             two: "Nutritional Monitoring",
@@ -154,6 +160,7 @@ export const messages = {
           legend: "Group training",
           price: "80,00",
           month: "Monthly",
+          message: `https://api.whatsapp.com/send?phone=4407465748962&text=Hello%20%2C%20I%20would%20like%20to%20join%20the%20Group%20Training%20plan`,
           subtitle: "Benefícios do plano",
           benefits: {
             one: "High intensity workouts",
@@ -163,9 +170,10 @@ export const messages = {
           },
         },
         gold: {
-          legend: "Quarterly package",
+          legend: "Three month package",
           price: "450,00",
-          month: "Quarterly",
+          month: "Three month",
+          message: `https://api.whatsapp.com/send?phone=4407465748962&text=Hello%20%2C%20I%20would%20like%20to%20join%20the%20Three%20month%20package%20plan`,
           subtitle: "Benefícios do plano",
           benefits: {
             one: "Physical assessment",
@@ -175,9 +183,10 @@ export const messages = {
           },
         },
         group: {
-          legend: "Quarterly Group Package ",
+          legend: "Three month package (Group)",
           price: "200,00",
-          month: "Quarterly",
+          month: "Three month",
+          message: `https://api.whatsapp.com/send?phone=4407465748962&text=Hello%20%2C%20I%20would%20like%20to%20join%20the%20Three%20month%20package%20'Group'%20plan`,
           subtitle: "Benefícios do plano",
           benefits: {
             one: "High intensity workouts",
@@ -190,6 +199,7 @@ export const messages = {
           legend: "Bodybuilding Consulting",
           price: "50,00",
           month: "Monthly",
+          message: `https://api.whatsapp.com/send?phone=4407903324682&text=Hello%20%2C%20I%20would%20like%20to%20join%20the%20Bodybuilding%20Consulting`,
           subtitle: "Benefícios do plano",
           benefits: {
             one: "For athletes and non-athletes",
@@ -247,7 +257,7 @@ export const messages = {
         contacts: {
           title: "Contacts",
           phoneLegend: "Service from Monday to Saturday",
-          emailLegend: "cmsk@gmail.com",
+          emailLegend: "consultoriacms@yahoo.com.br",
         },
       },
     },

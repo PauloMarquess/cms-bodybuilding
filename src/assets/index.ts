@@ -8,7 +8,6 @@ import EmailIcons from "./icons/email.svg";
 import TelephoneIcons from "./icons/telephone.svg";
 import Facebook from "../assets/icons/facebook.svg";
 import Intagram from "../assets/icons/instagram.svg";
-import Zoom from "../assets/icons/zoom.svg";
 import Menu from "../assets/icons/menu.svg";
 import Close from "../assets/icons/close.svg";
 import Verify from "../assets/icons/verify.svg";
@@ -68,7 +67,6 @@ export const images = {
 export const icons = {
   facebook: Facebook,
   instagram: Intagram,
-  zoom: Zoom,
   close: Close,
   menu: Menu,
   verify: Verify,

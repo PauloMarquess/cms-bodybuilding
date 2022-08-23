@@ -157,8 +157,9 @@ export const plans = [
     price: `${i18n.t("plans.basic.price")}`,
     month: `${i18n.t("plans.basic.month")}`,
     subtitle: `${i18n.t("plans.basic.subtitle")}`,
-    link: "Paulinho_marques2012@hotmail.com",
+    link: `${i18n.t(`plans.basic.message`)}`,
     benefits: [
+      { name: `${i18n.t("plans.realTime")}` },
       { name: `${i18n.t("plans.basic.benefits.one")}` },
       { name: `${i18n.t("plans.basic.benefits.two")}` },
       { name: `${i18n.t("plans.basic.benefits.three")}` },
@@ -171,8 +172,9 @@ export const plans = [
     month: `${i18n.t("plans.silver.month")}`,
     subtitle: `${i18n.t("plans.silver.subtitle")}`,
     destak: true,
-    link: "Paulinho_marques2012@hotmail.com",
+    link: `${i18n.t(`plans.silver.message`)}`,
     benefits: [
+      { name: `${i18n.t("plans.realTime")}` },
       { name: `${i18n.t("plans.silver.benefits.one")}` },
       { name: `${i18n.t("plans.silver.benefits.two")}` },
       { name: `${i18n.t("plans.silver.benefits.three")}` },
@@ -184,8 +186,9 @@ export const plans = [
     price: `${i18n.t("plans.gold.price")}`,
     month: `${i18n.t("plans.gold.month")}`,
     subtitle: `${i18n.t("plans.gold.subtitle")}`,
-    link: "Paulinho_marques2012@hotmail.com",
+    link: `${i18n.t(`plans.gold.message`)}`,
     benefits: [
+      { name: `${i18n.t("plans.realTime")}` },
       { name: `${i18n.t("plans.gold.benefits.one")}` },
       { name: `${i18n.t("plans.gold.benefits.two")}` },
       { name: `${i18n.t("plans.gold.benefits.three")}` },
@@ -198,8 +201,9 @@ export const plans = [
     month: `${i18n.t("plans.group.month")}`,
     subtitle: `${i18n.t("plans.group.subtitle")}`,
     destak: true,
-    link: "Paulinho_marques2012@hotmail.com",
+    link: `${i18n.t(`plans.group.message`)}`,
     benefits: [
+      { name: `${i18n.t("plans.realTime")}` },
       { name: `${i18n.t("plans.couple.benefits.one")}` },
       { name: `${i18n.t("plans.couple.benefits.two")}` },
       { name: `${i18n.t("plans.couple.benefits.three")}` },
@@ -211,8 +215,9 @@ export const plans = [
     price: `${i18n.t("plans.couple.price")}`,
     month: `${i18n.t("plans.couple.month")}`,
     subtitle: `${i18n.t("plans.couple.subtitle")}`,
-    link: "Paulinho_marques2012@hotmail.com",
+    link: `${i18n.t(`plans.couple.message`)}`,
     benefits: [
+      { name: `${i18n.t("plans.realTime")}` },
       { name: `${i18n.t("plans.couple.benefits.one")}` },
       { name: `${i18n.t("plans.couple.benefits.two")}` },
       { name: `${i18n.t("plans.couple.benefits.three")}` },
@@ -223,28 +228,25 @@ export const plans = [
 
 export const socialMedia = [
   { name: "facebook", icons: icons.facebook, link: "#" },
-  { name: "instagram", icons: icons.instagram, link: "#" },
-  { name: "zomm", icons: icons.zoom, link: "#" },
-];
-
-export const socialMediaTeachers = [
-  { name: "facebook", icons: icons.facebook, link: "#" },
-  { name: "instagram", icons: icons.instagram, link: "#" },
-  { name: "zomm", icons: icons.zoom, link: "#" },
+  {
+    name: "instagram",
+    icons: icons.instagram,
+    link: "https://www.instagram.com/cmsk_bodybuilding_fitness/",
+  },
 ];
 
 export const contact = [
   {
     icon: icons.telephone,
-    title: "+5587991054786",
+    title: "+4407465748962",
     subTitle: `${i18n.t("footer.contacts.phoneLegend")}`,
-    href: "tel:+5587991054786",
+    href: "tel:4407465748962",
   },
   {
     icon: icons.email,
     title: "E-mail",
     subTitle: `${i18n.t("footer.contacts.emailLegend")}`,
-    href: "mailto:Paulinho_marques2012@hotmail.com",
+    href: "mailto:consultoriacms@yahoo.com.br",
   },
 ];
 export const openingHours = [
