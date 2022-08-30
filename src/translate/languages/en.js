@@ -38,7 +38,7 @@ export const messages = {
         },
       },
       team: {
-        title: "Nosso Time",
+        title: "Our Team",
         specialties: "Specialties",
         teacher: {
           one: {
@@ -197,7 +197,7 @@ export const messages = {
         },
         couple: {
           legend: "Bodybuilding Consulting",
-          price: "50,00",
+          price: "100,00",
           month: "Monthly",
           message: `https://api.whatsapp.com/send?phone=4407903324682&text=Hello%20%2C%20I%20would%20like%20to%20join%20the%20Bodybuilding%20Consulting`,
           subtitle: "Benefícios do plano",

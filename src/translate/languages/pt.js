@@ -45,7 +45,7 @@ export const messages = {
             id: "harley",
             name: "Harlley Soares",
             specialties: {
-              one: "Treinadora da empresa CMSK BODYBUILDING FITNESS",
+              one: "Treinador da empresa CMSK BODYBUILDING FITNESS",
               two: "Formado pelo CREF",
               third: "Especialista em treinamento para hipertrofia muscular",
               four: "Personal trainer com experiência de 25 anos",
@@ -198,7 +198,7 @@ export const messages = {
         },
         couple: {
           legend: "Consultoria Bodybuilding ",
-          price: "50,00",
+          price: "100,00",
           month: "Mensal",
           message: `https://api.whatsapp.com/send?phone=4407465748962&text=Ol%C3%A1%20%2C%20gostaria%20de%20aderir%20a%20Consultoria%20Grupo%20Bodybuilding`,
           subtitle: "Benefícios do plano",

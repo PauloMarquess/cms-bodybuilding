@@ -15,5 +15,6 @@ export const CardSelect = styled.div`
   font-weight: 600;
   img {
     width: 20px;
+    display: none;
   }
 `;

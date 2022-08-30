@@ -4,8 +4,8 @@ import { images } from "../../../assets";
 import { CardSelect, ContainerSelect } from "./style";
 
 const countries = [
-  { value: "pt-BR", label: "Brasil", icon: images.brasil },
-  { value: "en-US", label: "England", icon: images.england },
+  { value: "pt-BR", label: "Português", icon: images.brasil },
+  { value: "en-US", label: "English", icon: images.england },
 ];
 
 const ChangeLanguage = () => {
