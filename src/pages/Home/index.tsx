@@ -7,6 +7,7 @@ import {
   Testimonial,
   Team,
   Chat,
+  Copyright,
 } from "../../components";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Testimonial />
       <Footer />
       <Chat />
+      <Copyright />
     </>
   );
 };
