@@ -6,6 +6,7 @@ export const CardMission = styled.div`
   flex-direction: column;
   width: 45%;
   gap: 20px;
+  padding-right: 100px;
   span {
     color: ${COLORS.primary};
     font-weight: bolder;
@@ -20,6 +21,7 @@ export const CardMission = styled.div`
   @media (max-width: 769px) {
     width: 100%;
     margin: 50px 0;
+    padding-right: 0px;
 
     h1 {
       width: 100%;
@@ -36,13 +38,15 @@ export const CardMission = styled.div`
 
 export const ImageMission = styled.div`
   img {
-    width: 400px;
+    width: 620px;
+    height: 420px;
     border-radius: 14px;
   }
   @media (max-width: 769px) {
     img {
       position: relative;
-      width: 300px;
+      width: 100%;
+      height: auto;
       bottom: 30px;
     }
   }

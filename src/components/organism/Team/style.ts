@@ -27,7 +27,7 @@ export const CardTeacher = styled.section`
   flex-wrap: wrap;
   @media (max-width: 769px) {
     flex-direction: column;
-    padding: 30px 0 60px 0;
+    padding: 30px 0 30px 0;
   }
 `;
 

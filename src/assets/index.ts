@@ -2,7 +2,7 @@ import Brasil from "../assets/images/brasil.png";
 import England from "../assets/images/england.png";
 import Presentation from "../assets/images/presentatio.jpeg";
 import Logo from "../assets/images/logo.png";
-import MissionBackground from "../assets/images/mission.png";
+import MissionBackground from "../assets/images/mission.jpeg";
 import Crown from "../assets/images/crown.png";
 import EmailIcons from "./icons/email.svg";
 import TelephoneIcons from "./icons/telephone.svg";
