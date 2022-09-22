@@ -118,6 +118,18 @@ export const messages = {
               eight: "Treinamento Hiit",
             },
           },
+          seven: {
+            functionTeacher: "Treinador Fisiculturismo",
+            id: "anderson",
+            name: "Anderson Pereira",
+            specialties: {
+              one: "Treinador da empresa CMSK BODYBUILDING FITNESS",
+              two: "Periodização de treino voltado para hipertrofia e força",
+              third: "Estrutura e periodização de treino feminino",
+              four: "Periodização de treino para powerlifter e powerbuilding",
+              five: "Nutrição esportiva para atletas e público em geral",
+            },
+          },
         },
       },
       mission: {

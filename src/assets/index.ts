@@ -36,8 +36,12 @@ import ViniciusPerfil from "./images/perfil-vinicius.png";
 import MonicaPerfil from "./images/perfil-monica.png";
 import JanainaPerfil from "./images/perfil-janaina.png";
 import AlinePerfil from "./images/perfil-aline.png";
+import Anderson from "./images/anderson.png";
+import AndersonPerfil from "./images/perfil-anderson.png";
 
 export const images = {
+  andersonPerfil: AndersonPerfil,
+  anderson: Anderson,
   logo: Logo,
   parallax: Parallax,
   presentation: Presentation,

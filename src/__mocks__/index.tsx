@@ -96,6 +96,20 @@ export const team = [
     ],
   },
   {
+    id: `${i18n.t("team.teacher.seven.id")}`,
+    name: `${i18n.t("team.teacher.seven.name")}`,
+    functionTeacher: `${i18n.t("team.teacher.seven.functionTeacher")}`,
+    image: images.anderson,
+    perfil: images.andersonPerfil,
+    specialties: [
+      { name: `${i18n.t("team.teacher.seven.specialties.one")}` },
+      { name: `${i18n.t("team.teacher.seven.specialties.two")}` },
+      { name: `${i18n.t("team.teacher.seven.specialties.third")}` },
+      { name: `${i18n.t("team.teacher.seven.specialties.four")}` },
+      { name: `${i18n.t("team.teacher.seven.specialties.five")}` },
+    ],
+  },
+  {
     id: `${i18n.t("team.teacher.four.id")}`,
     name: `${i18n.t("team.teacher.four.name")}`,
     functionTeacher: `${i18n.t("team.teacher.four.functionTeacher")}`,

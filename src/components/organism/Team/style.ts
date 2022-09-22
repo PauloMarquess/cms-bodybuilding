@@ -36,7 +36,7 @@ export const Teacher = styled.div`
   gap: 20px;
   display: flex;
   flex-direction: column;
-  width: 28%;
+  width: 21%;
   flex-wrap: wrap;
   justify-content: flex-start;
   padding-top: 20px;
@@ -68,6 +68,11 @@ export const Teacher = styled.div`
     position: relative;
     top: 30px;
     width: 380px;
+  }
+  #anderson {
+    width: 260px;
+    position: relative;
+    top: 50px;
   }
 
   h1 {

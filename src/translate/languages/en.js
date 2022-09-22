@@ -135,6 +135,18 @@ export const messages = {
               eight: " Training Hiit",
             },
           },
+          seven: {
+            functionTeacher: "BODYBUILDING COACH",
+            id: "anderson",
+            name: "Anderson Pereira",
+            specialties: {
+              one: "Trainer at CMSK BODYBUILDING FITNESS",
+              two: "Periodization of training focused on hypertrophy and strength",
+              third: "Structure and periodization of female training",
+              four: "Training periodization for powerlifter and powerbuilding",
+              five: "Sports nutrition for athletes and the general public",
+            },
+          },
         },
       },
       plans: {
