@@ -2,6 +2,8 @@ export const messages = {
   en: {
     translations: {
       whatsapp: {
+        messageFreeClass:
+          "https://wa.me/4407465748962?text=%20Hello,%20I%20would%20like%20to%20schedule%20a%20trial%20class.",
         message:
           "https://api.whatsapp.com/send?phone=4407903324682&text=Hello%20%2C%20I%20would%20like%20to%20know%20more%20about%20the%20CMSK%20program%20!",
       },
@@ -17,7 +19,7 @@ export const messages = {
         subtitle: "BUILD YOUR BODY",
         description:
           "Our qualified team of instructors help our clients to develop their bodies and minds, achieve the best results and enjoy true fitness challenges while being positively motivated. Results you and your body deserve.",
-        button: "Start now",
+        button: "Schedule a free trial class",
       },
       mission: {
         title: "PHYSICAL   ",

@@ -6,6 +6,7 @@ export { default as Chat } from "./atoms/Chat";
 export { default as SocialMedia } from "./atoms/SocialMedia";
 export { default as Copyright } from "./atoms/Copyright";
 export { default as ButtonLink } from "./atoms/ButtonLink";
+export { default as ButtonAnimation } from "./atoms/ButtonAnimation";
 
 export { default as ModalMenu } from "./molecules/ModalMenu";
 export { default as EachHour } from "./molecules/EachHour";

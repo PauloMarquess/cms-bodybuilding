@@ -2,6 +2,8 @@ export const messages = {
   pt: {
     translations: {
       whatsapp: {
+        messageFreeClass:
+          "https://wa.me/4407465748962?text=Ol%C3%A1%20gostaria%20de%20agendar%20uma%20aula%20experimental.%20",
         message:
           "https://api.whatsapp.com/send?phone=4407465748962&text=Ol%C3%A1%20%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20programa%20CMSK%20!",
       },
@@ -18,7 +20,7 @@ export const messages = {
         subtitle: "CONSTRUA SEU CORPO",
         description:
           "Nossa equipe qualificada de instrutores ajuda nossos clientes a desenvolver seus corpos e mentes, alcançar os melhores resultados e aproveitar os verdadeiros desafios de condicionamento físico enquanto estamos motivados positivamente. Resultados que você e seu corpo merecem.",
-        button: "Comece Agora",
+        button: "Agende uma aula experimental Grátis",
       },
       team: {
         title: "Nosso Time",

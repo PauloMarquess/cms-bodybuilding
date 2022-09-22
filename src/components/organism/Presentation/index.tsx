@@ -1,5 +1,5 @@
 import { images } from "../../../assets";
-import { Container, ButtonLink } from "../../../components";
+import { Container, ButtonAnimation } from "../../../components";
 import { Images, Information } from "./style";
 import { i18n } from "../../../translate/i18n.js";
 
@@ -12,7 +12,7 @@ const Presentation = () => {
         <h1>{i18n.t("presentation.subtitle")}</h1>
         <h6>{i18n.t("presentation.description")}</h6>
 
-        <ButtonLink link="#plans" children={i18n.t("presentation.button")} />
+        <ButtonAnimation children={i18n.t("presentation.button")} />
       </Information>
     </Container>
   );
